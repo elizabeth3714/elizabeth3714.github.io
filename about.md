@@ -4,7 +4,7 @@ title: From Le Corbusier to the Mesh Matrices
 ---
 
 <p class="message">
-  He that travels far knows much. – Thomas Fuller, 17th Century British Scholar 
+  He that travels far knows much. – Thomas Fuller, 17th Century British Scholar <br>
   
   Read ten thousand books and travel ten thousand miles. – Qichang Dong, Chinese Scholar in the 1600s
 </p>
@@ -27,6 +27,9 @@ Python/R/STATA/Excel VBA/SQL, MSOffice, Adobe PS/AI/ID/Premiere Pro, AutoCAD, Sk
 
 **Language Skills** <br>
 Proficiency English, Native Bilingual Cantonese, Native Bilingual Mandarin, Intermediate French
+
+**Hobbies** <br>
+Coffee, Yoga, Travel <br>
 
 Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
 
