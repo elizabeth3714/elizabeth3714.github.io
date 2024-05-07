@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: From Le Corbusier to the Mesh Matrices
 ---
 
 <p class="message">
