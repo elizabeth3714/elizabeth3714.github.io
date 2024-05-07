@@ -25,7 +25,7 @@ Urban Planner, AECOM HK, 2016-2017 <br>
 **Software Skills** <br>
 Python/R/STATA/Excel VBA/SQL, MSOffice, Adobe PS/AI/ID/Premiere Pro, AutoCAD, SketchUp, ArcGIS, Sketch (20+yr), VISUM, IMPLAN, Argus, CoStar, MOVES/PPSUITE/Central, Salesforce
 
-**Language Skills**
+**Language Skills** <br>
 Proficiency English, Native Bilingual Cantonese, Native Bilingual Mandarin, Intermediate French
 
 Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
