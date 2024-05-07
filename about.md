@@ -14,18 +14,9 @@ title: From Le Corbusier to the Mesh Matrices
 **Education** <br>
 Master of Public Policy, University of Michgian, 2018-19, Expected Dec 2024 <br>
 Graduate Data Science Certificate Program, Expected Dec 2024 <br>
-*Courses:* <br>
-Politics of Public Policy  Calculus  Policy Writing  Statistics for Public Policy  Micro Economics A &amp; B  Quantitative Program
-Evaluation  STATA  R for Public Policy  Intermediate Programming  Data Manipulation and Analysis  Statistics Learning II:
-Multivariate Analysis  Servers, Shell &amp; Git  Performance Management  Public Management
 
 Master of City Planning, University of Pennsylvania, 2021 <br>
 Certificate of Urban Design and Development, University of Pennsylvania, 2021 <br>
-*Courses:* <br>
-Introduction to Property Management  Real Estate Investment  Land Use Law in Practice  Real Estate Law  Real Estate
-Development  Progressive Development  Planning Theory and History  Quantitative Methods  Intro to Land Use  Modeling
-Geographical Objects  Planning by Numbers  Planning Workshop  Water Policy in Planning  Land Use and Environmental
-Modeling  Intro to Transportation Planning  Planning Studio  Intro to Environmental Planning  Transportation Planning Methods
 
 **Work Experience** <br>
 Transportation Planner/Engineer, AECOM, 2022-2023 <br>
