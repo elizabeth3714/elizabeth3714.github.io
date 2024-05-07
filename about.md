@@ -5,6 +5,7 @@ title: From Le Corbusier to the Mesh Matrices
 
 <p class="message">
   He that travels far knows much. – Thomas Fuller, 17th Century British Scholar 
+  
   Read ten thousand books and travel ten thousand miles. – Qichang Dong, Chinese Scholar in the 1600s
 </p>
 
