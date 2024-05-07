@@ -20,8 +20,8 @@ sass:
 
 author:
   name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  url:               elizabeth3714.github.io
+  email:             elihwang@umich.edu
 
 plugins:
   - jekyll-coffeescript
