@@ -12,15 +12,15 @@ title: From Le Corbusier to the Mesh Matrices
 **Elizabeth Wang, AICP** <br>
 
 **Education** <br>
-Master of Public Policy, Universiity of Michgian, 2018-19, Expected Dec 2024
-Graduate Data Science Certificate Program, Expected Dec 2024
+Master of Public Policy, Universiity of Michgian, 2018-19, Expected Dec 2024 <br>
+Graduate Data Science Certificate Program, Expected Dec 2024 <br>
 
-Master of City Planning, University of Pennsylvania, 2021
-Certificate of Urban Design and Development, University of Pennsylvania, 2021
+Master of City Planning, University of Pennsylvania, 2021 <br>
+Certificate of Urban Design and Development, University of Pennsylvania, 2021 <br>
 
 **Work Experience** <br>
-Urban Planner /Engineer, AECOM, 2022-2023
-Urban Planner, AECOM HK, 2016-2017
+Urban Planner /Engineer, AECOM, 2022-2023 <br>
+Urban Planner, AECOM HK, 2016-2017 <br>
 
 Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
 
