@@ -400,6 +400,8 @@ When it comes to the question of which metric is more compelling, the answer hin
 
 Typically, ROC AUC is reserved for binary variable assessments. In this study, the obesity rate demonstrated a more balanced distribution as a binary variable (`Low`: 1380, `High`: 1350) compared to its distribution as a categorical variable (`Medium`: 1569, `Low`: 911, `High`: 250). Hence, we contend that the ROC AUC metric offers a more accurate reflection of a model’s efficacy for this dataset, with the random forest model emerging as the top performer amongst the four contenders. <br>
 
+<br>
+<br>
 
 <div class="message">
   This is the term project of SI618 Data Manipulation and Analysis at the University of Michigan. The project is 
