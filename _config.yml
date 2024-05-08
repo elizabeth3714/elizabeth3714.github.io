@@ -1,6 +1,6 @@
 title:               elizabeth3714
 url:                 https://github.com/elizabeth3714
-baseurl:             "/elizabeth3714.github.io"
+baseurl:             ""
 
 markdown:            kramdown
 highlighter:         rouge
