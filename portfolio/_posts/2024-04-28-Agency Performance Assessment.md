@@ -4,6 +4,10 @@ title: Agency Performance Assessment <br>-- using HUD FY2022 Performance Report 
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
+<div class="message">
+  This is the term paper of PubPol586 Performance Management at the University of Michigan. The paper
+  was completed on an individual basis.
+</div>
 
 Performance evaluation is critical in an agency’s self-assessment and public monitoring
 process. It yields evidence of a government’s effectiveness, provides direction in budgeting and
