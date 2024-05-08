@@ -326,7 +326,7 @@ In US Census, race and ethnical are two different ways to categorize population.
 In experiment with different data visualization and analytics techniques, since the values in our datasets are numeric, some techniques such as pivot table would not be applied here. We did create a categorical column converting racial data into the dominant group. The new column is proper for multi-dimentional pairlot visualization whereas still not desired to establish a pivot table. <br>
 
 
-## Machine Learning <br>
+### Machine Learning <br>
 
 In this session, we will delve into various machine learning models to maximize prediction accuracy or minimize the misclassification rate of the response variables. Data preprocessing is an essential adjunct to each model's design, as different machine learning models may necessitate distinct preprocessing steps. This notion extends to the selection of variables; depending on the model, various combinations of variables can significantly influence the emerging patterns. <br>
 
