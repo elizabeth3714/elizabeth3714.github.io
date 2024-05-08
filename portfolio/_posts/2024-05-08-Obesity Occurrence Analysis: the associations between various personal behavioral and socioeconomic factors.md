@@ -176,3 +176,19 @@ Pairplots of selected variables are depicted in the chart above. We would like t
 **Health outcome:**  lack of sleep, lack of physical activity, and stroke show positive correlation with the occurence of obesity. Depression and binge drinking shows negative correlation with the occurence of obeisty. <br>
 **Racial groups:** the majority census tracts are dominated by either white or black population. The census tracts with the same dominant groups shows agglomerations in the distribution. For example, with the same level of blood pressure, white population has lower obesity occurence as compared to black population. On the contrary, white population shows higher chance in binge drinking, but obesity occurence is still relatively higher with the black population. <br>
 
+### Inferential Analysis <br>
+
+## MODEL 1: Multiple Linear Regression Model (Obesity as the dependent variable. Multiple indicators of personal lifestyle habits as the dependent variable.) <br>
+
+- $Y$:`Obesity`; $X_1$:`PhysicalActivity`; $X_2$:`SleepLess7Hrs`; $X_3$:`Diabetes`; $X_4$:`Stroke`; $X_5$:`FairPoorHealth`; $X_6$:`BingeDrinking` <br>
+- $Y=\beta_0+\beta_1X_1 +\beta_2X_2 + \beta_3 X_3 + \beta_4 X_4+ \beta_5 X_5 + \beta_6 X_6 + \epsilon$ <br>
+- $H_0:\beta_1=\beta_2=\beta_3=\beta_4=\beta_5=\beta_6=0$ <br>
+- $H_A$: at least one $\beta_i$ is non-zreo <br>
+- Confidence Interval: We chose a 99% confidence interval. <br>
+- We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and indicators of personal lifestyle habits through multiple linear regression modeling. <br>
+
+![Correlation Matrix bar](../image/SI618obesity/model1.png)
+
+So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times \text{PhysicalActivity} + 0.2330 \times \text{SleepLess7Hrs} + 
+2.7568 \times \text{Diabetes} - 4.7811 \times \text{Stroke} - 1.0357 \times \text{FairPoorHealth} + 0.6658 \times \text{BingeDrinking} + \varepsilon$ <br>
+
