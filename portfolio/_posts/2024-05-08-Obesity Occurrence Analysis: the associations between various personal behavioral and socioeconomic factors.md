@@ -306,5 +306,49 @@ $Obesity = 0.7823 + 0.8982 \times PhysicalActivity + 0.2676 \times SleepLess7Hrs
 
 The R-squared value of 0.880 suggests that the model explains 88% of the variability in obesity rates. This high explanatory power implies a strong fit of the model, yet the significant coefficients should be considered with caution due to potential multicollinearity, as indicated by the large condition number. Careful consideration should be taken if deploying this model in a production environment. <br>
 
+### EDA Reflection <br>
+
+#### Synthesis <br>
+
+The synthesis of descriptive and inferential statistics, alongside graphical analyses, has illuminated the complex relationship between racial demographics, health conditions, lifestyle factors, and obesity rates within Michigan's diverse counties. Our research questions centered on understanding these relationships and identifying any significant patterns that could inform public health initiatives. <br>
+Merging the CDC's PLACES data and the American Community Survey Data from the US Census has provided a comprehensive lens through which to view these correlations. This combined dataset enhances the reliability of the observed statistical associations and offers a more granular insight into the socioeconomic and behavioral factors at play. Such an integrated approach allows for a more robust analysis than what could be achieved with each dataset in isolation, leading to actionable intelligence that can drive targeted interventions to combat obesity at the community level. <br>
+
+#### Key Findings <br>
+
+* Racial composition appears to correlate with obesity prevalence across counties, as suggested by comparative analysis. <br>
+* The Black community has been found to have a positive correlation with higher obesity rates. Conversely, the White population demonstrates a negative correlation with obesity rates. <br>
+* Through inferential statistics, it can be concluded that there is a strong statistical correlation between race and obesity. Among them, white people have lower obesity rates than ethnic minorities. <br>
+* Health outcome and health related behaviors also show correlation with the occurence of obesity. While all physical health outcomes show positive correlation with obesity rates, mental health depicts negative correlation with the obesity rates. Similarly, while other negative health behaviors show positive correlation with obesity rates, binge drinking, however depicts a negative pattern in the association with obesity occurence. <br>
+* In the multiple regression analysis, after adding socioeconomic indicators (median household income, education level, and poverty rate), the coefficient β of personal habit indicators (such as sleep time, exercise duration, etc.) in the multiple regression equation mostly decreased, proving that socioeconomic factors Indicators are also relevant factors affecting obesity. <br>
+
+#### Limitations <br>
+
+One notable limitation in our analysis arises from the interpretation of p-values. A p-value of 0.0, as observed in our comparative analysis, often indicates a very small p-value rounded down due to the large dataset size. While it suggests a statistically significant correlation, this does not necessarily imply a strong or meaningful relationship in a practical sense. The large sample size can lead to very small p-values, even for minor associations that may not be of practical importance. <br>
+Furthermore, our analysis may be constrained by the inherent biases within the datasets, such as reporting biases or selection biases, which could skew the results. Using aggregated data at the county level may also mask significant variations within smaller geographical units or specific subpopulations. <br>
+In US Census, race and ethnical are two different ways to categorize population. We chose race categories and calculated Hispanic population manually for comparison. Hispanic population was compared with the other racial groups in the descriptive statistics. However, with the consideration of overlaping population, we opted to stick with racial categories in the rest part of the analysis. <br>
+In experiment with different data visualization and analytics techniques, since the values in our datasets are numeric, some techniques such as pivot table would not be applied here. We did create a categorical column converting racial data into the dominant group. The new column is proper for multi-dimentional pairlot visualization whereas still not desired to establish a pivot table. <br>
+
+
+## Machine Learning <br>
+
+In this session, we will delve into various machine learning models to maximize prediction accuracy or minimize the misclassification rate of the response variables. Data preprocessing is an essential adjunct to each model's design, as different machine learning models may necessitate distinct preprocessing steps. This notion extends to the selection of variables; depending on the model, various combinations of variables can significantly influence the emerging patterns. <br>
+
+**Variables Selection methodology:** <br>
+Variables are selected in different combination to achieve a higher accuracy.  <br>
+**Response variable:** <br>
+Response variable has been trasnformed both into categorical and binary values. Both categorical and binary variable have been applied in separatate modes to expriment to find the optimal result. <br>
+**Methodology Selection for Preprocessing:**  <br>
+Since the independent variables are primarily continuous, the initial phase will focus on standard scaling and dimensionality reduction. The efficacy of these methods will likely vary across different models and will be assessed individually. <br>
+During preprocessing, one-hot encoding was tested to transform the categorical variable representing the predominant racial group. Observations indicate that the outcomes using one-hot encoded racial variables are strikingly similar to those obtained with the percentage representation of racial groups. Consequently, we will primarily employ the percentage variables in most models. <br>
+
+
+
+
+
+
+
+
+
+
 
 
