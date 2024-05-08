@@ -103,13 +103,13 @@ Our research utilizes two pivotal data sets: <br>
 
 The columns are a mix of data types: the `NAME`, `state`, `county`, and `tract` columns are of the object type, presumably containing textual data. The `TractFIPS` column is of the int64 data type, likely a numerical identifier for each tract. All other columns, which include demographic information such as `Total_Population`, `Male`, `Female`, as well as race categories and socioeconomic indicators like `Median_HH_Income` and `Poverty_Rate`, are of the float64 data type. This structure suggests a detailed and rich dataset suitable for in-depth analysis of chronic disease factors at the tract level within Michigan. <br>
 
-### Descriptive Statistics
+### Descriptive Statistics <br>
 
-#### Histogram of Health Outcome
+#### Histogram of Health Outcome <br>
 
 ![Histograms of Health-related Columns](../image/SI618obesity/1.png?raw=true)
 
-#### Visualizaiton of Population by Race in Percentage
+#### Visualizaiton of Population by Race in Percentage <br>
 
 ![Race Percentage](../image/SI618obesity/2.png?raw=true)
 
@@ -120,3 +120,59 @@ Observations include: <br>
 - **White Population:** Predominantly the majority in most of the census tracts. <br>
 - **African American Population:** Significant concentrations of African American residents dominate in certain tracts. <br>
 - **Hispanic, Asian and Other Racial Group:** There is a noticeable agglomeration of Hispanic individuals in several tracts, with the Asian and other racial groups also showing presence but to a lesser extent. <br>
+
+#### Visualization of Median Household Income by County <br>
+
+![Median Household Income by County](../image/SI618obesity/3.png?raw=true)
+
+In order to observe the distribution of median household income, the data has been further aggregated by county. Ten county were randomly selected in this process. The violin charts depict the distribution of median household income in the 10 counties respectively. Each diagram demonstrates the median household income distribution from the census tracts of each county. For example, Lenawee county is relatively wealthier, the median value of median household income is above 50,000. Berrien county has smaller gap among wealthier and less wealthy households. Genesee county's median value of median household income is around 30,000, lower than other counties. <br>
+
+### Multivariate Analysis <br>
+
+#### Correlation Matrix and Visualization <br>
+
+Due to the large number of variables, we break this visualization into two steps. In the firs step, we would like to focus on the correlation of all health outcome (from the primary dataset - CDC PLACE). Then the merged dataset is uesd to visualize correlation among all health related along with socio-economic fators. <br>
+
+![Correlation Matrix 1](../image/SI618obesity/4.png?raw=true)
+
+The heatmap uses a red-blue color scheme (`coolwarm`). Blue represents a a positive correlation, red represents a negative correlation, and the intensity of the color indicates the strength of the correlation. <br>
+
+- **Red (Positive Correlation):** Darker shades of red indicate a stronger positive correlation, where an increase in one condition tends to be associated with an increase in another. Lighter shades of red indicate a weaker positive correlation. <br>
+- **Blue (Negative Correlation):** Darker shades of blue indicate a stronger negative correlation, where an increase in one condition tends to be associated with a decrease in another. Lighter shades of blue indicate a weaker negative correlation. <br>
+
+
+**Significant Correlations Between Obesity and Other Conditions** <br>
+
+1. **Obesity and Physical Activity:** There appears to be a strong positive correlation between obesity and physical activity (as indicated by a dark red color). This suggests that higher levels of lacking physical activity are associated with lower levels of obesity. <br>
+2. **Obesity and Sleep Less Than 7 Hours:** There was a strong positive correlation indicated (around 0.84), suggesting that individuals with obesity may also experience less sleep (fewer than 7 hours), or vice versa. <br>
+3. **Obesity and Diabetes:** A strong positive correlation was also noted between obesity and diabetes, which is consistent with medical understanding that obesity can be a risk factor for type 2 diabetes. <br>
+4. **Obesity and Stroke:** There seemed to be a positive correlation between obesity and stroke, which aligns with the known health risks associated with obesity. <br>
+5. **Obesity and Fair or Poor Health:** A positive correlation between obesity and fair or poor health suggests that  higher levels of obesity within the dataset could be associated with a higher probability of having fair or poor health status. <br>
+6. **Obesity and Binge Drinking:** The blue coloring suggests a negative correlation between obesity and binge drinking. This means that as binge drinking increases, obesity levels tend to decrease, and vice versa. <br>
+
+![Correlation Matrix 2](../image/SI618obesity/5.png?raw=true)
+![Correlation Matrix bar](../image/SI618obesity/6.png?raw=true)
+
+Beside correlation among health conditions, we would like to further understand the correlation among health and socio-economic factors. This heatmap demonstrates correlation among such variables using green for positive correlation and pink for negative one. <br>
+
+- **Green (Positive Correlation):** Darker shades of red indicate a stronger positive correlation. Lighter shades of red indicate a weaker positive correlation. Zero is dislayed in white. <br>
+- **Pink (Negative Correlation):** Darker shades of blue indicate a stronger negative correlation. Lighter shades of blue indicate a weaker negative correlation. <br>
+
+
+**Significant Correlations Among Health and Socio-economic Features** <br>
+
+1. **Education and Disease Occurance:** Education background has been categorized into those holding a bachelor's degree and above, and those who have not attended university. It is stunning how education background shows negative correlation with disease occurance (including diabetes, obesity and stroke, bad mental and physicla health) and risky health behaviors (including sleeping less, smoking, lack of exercises). <br>
+2. **Poverty Rate and Disease Occurance:** Poverty rate also shows a strong positive correlation with most disease occurance and bad health behaviors. This includes diabetes, obesity, poor mental and physical health, smoking, sleeping less, and lack of exercise - all of these features show over 0.5 correlation. <br>
+3. **Race and Disease Occurance:** Both white and black population demonstrate strong correlation with disease occurance and risky health behaviors, wheras in oppisite patterns. White population shows strong negative correlation with smoking, diabetes, obesity, stroke, sleeping less, and poor physical health. As comparison, black population unveils positive correlation with these factors. However, white population has strong positive correlation with binge drinking, whereas black population shows strong negative correlation. <br>
+4. **Household Financial Status and Disease Occurance:** Similarly, the median household income also demonstrates a strong negative correlation with the occurance of dieases including stroke, obesity, dieabtes, etc., as well as poor health behaviors such as lack of exercise and sleep. However, household income shows strong correlation with binge drinking. <br>
+
+#### Pairplot by Dominant Race Group <br>
+
+![Correlation Matrix bar](../image/SI618obesity/7.png?raw=true)
+
+To add a dimention to the pairplot, the original numeric data for racial groups have been converted to categorical data. The method is to pick the dominant group in population and create a new column with the race as the value. This is a relatively simple and brutal approach for the purpose of data visualization. <br>
+
+Pairplots of selected variables are depicted in the chart above. We would like to focus on the correlation of other variables with obesity. <br>
+**Health outcome:**  lack of sleep, lack of physical activity, and stroke show positive correlation with the occurence of obesity. Depression and binge drinking shows negative correlation with the occurence of obeisty. <br>
+**Racial groups:** the majority census tracts are dominated by either white or black population. The census tracts with the same dominant groups shows agglomerations in the distribution. For example, with the same level of blood pressure, white population has lower obesity occurence as compared to black population. On the contrary, white population shows higher chance in binge drinking, but obesity occurence is still relatively higher with the black population. <br>
+
