@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 
 <div class="message">
   This is the term project of SI618 Data Manipulation and Analysis at the University of Michigan. The project is 
-  co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division.
+  co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division. <br>
 </div>
 
 [![Click for Video Presentation](../image/SI618obesity/machine_learning.png?raw=true)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
