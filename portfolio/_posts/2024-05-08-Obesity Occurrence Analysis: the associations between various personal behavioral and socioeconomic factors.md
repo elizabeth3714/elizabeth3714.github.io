@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 </div>
 <br>
 
-[![Click for Video Presentation](../image/SI618obesity/machine_learning.png?raw=true)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
+[![Click for Video Presentation](../image/SI618obesity/ROC.png?raw=true)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
 
 ### Overview <br>
 
