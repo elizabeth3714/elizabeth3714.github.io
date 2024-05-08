@@ -178,6 +178,41 @@ Pairplots of selected variables are depicted in the chart above. We would like t
 **Health outcome:**  lack of sleep, lack of physical activity, and stroke show positive correlation with the occurence of obesity. Depression and binge drinking shows negative correlation with the occurence of obeisty. <br>
 **Racial groups:** the majority census tracts are dominated by either white or black population. The census tracts with the same dominant groups shows agglomerations in the distribution. For example, with the same level of blood pressure, white population has lower obesity occurence as compared to black population. On the contrary, white population shows higher chance in binge drinking, but obesity occurence is still relatively higher with the black population. <br>
 
+### Comparative Analysis <br>
+
+![Correlation Matrix bar](../image/SI618obesity/8.png?raw=true)
+
+The scatterplots represent the relationships between the obesity rate and the percentages of various racial demographics within the dataset. Each plot corresponds to a different racial demographics, and the correlation coefficient (rr
+r) for each relationship is provided in the title of the respective plots. <br>
+
+* White Population Percentage (White_Pct) has a negative correlation of -0.61 with obesity rates. This indicates that as the percentage of the White population increases within a county, obesity rates tend to decrease. The scatter plot with blue points reinforces this relationship, showing a downward trend as the White_Pct increases. <br>
+* Black Population Percentage (Black_Pct) is positively correlated with obesity rates, having a correlation coefficient of 0.66. This suggests that counties with a higher percentage of Black residents are likely to have higher obesity rates. The green points in the scatter plot generally rise as the Black_Pct increases, illustrating this positive relationship. <br>
+* American Indian Population Percentage (American_Indian_Pct) shows a very weak positive correlation with obesity rates, at a coefficient of 0.04. This weak correlation implies that there is little to no discernible trend between the percentage of American Indian residents and obesity rates within counties. The red points on the scatter plot are distributed without a clear pattern, indicating the lack of a strong association. <br>
+* Asian Population Percentage (Asian_Pct) has a moderate negative correlation of -0.37 with obesity rates. This relationship implies that counties with larger Asian populations might be associated with lower obesity rates. The scatter plot with purple points displays a trend where points tend to decline as the Asian_Pct increases, supporting the negative correlation observed. <br>
+* Hawaiian Islander Population Percentage (Hawaiian_Islander_Pct) presents an almost non-existent negative correlation of -0.01 with obesity rates. The negligible correlation coefficient indicates no meaningful relationship between the Hawaiian Islander population percentage and obesity rates, as visualized by the orange points scattered randomly across the scatter plot. <br>
+* Other Race Population Percentage (Other_Race_Pct) has a weak positive correlation of 0.13 with obesity rates. This correlation coefficient suggests that there is a slight tendency for counties with higher percentages of residents identified as 'Other Race' to have marginally higher obesity rates. However, as seen in the scatter plot with red points, the relationship is not strongly pronounced. <br>
+* Hispanic Population Percentage (Hispanic_Pct) is weakly positively correlated with obesity rates, with a correlation coefficient of 0.11. This indicates that there might be a slight increase in obesity rates in counties with higher Hispanic residents, although the relationship is not firmly defined. The light red points in the scatter plot show a very gentle upward trend, which is consistent with the weak correlation value. <br>
+
+By merging these two datasets, we can more accurately assess the correlation between obesity rates and racial demographics within individual counties in Michigan. These correlations between racial demographics and obesity rates suggest varied impacts on different communities. While some demographics, like White, Black, and Asian populations, show stronger negative and positive correlations, respectively, others, such as the American Indian, Hawaiian Islander, and Hispanic populations, display weaker associations. <br>
+
+#### Assessing the Relationship Between Household Income and Obesity Rates <br>
+
+![Correlation Matrix bar](../image/SI618obesity/9.png?raw=true)
+
+The median household income in counties with higher obesity rates tends to be lower than that in those with lower obesity rates. For instance, Genesee County, with one of the highest obesity rates, has a median household income of approximately $43,432. In contrast, Livingston County, which falls into the lower obesity rate category, shows a substantially higher median household income of approximately $74,590. <br>
+This pattern suggests an inverse relationship between median household income and obesity rates, where counties with lower median household incomes tend to have higher obesity rates. Conversely, counties with higher median incomes, such as Livingston and Oakland, display lower obesity rates. This trend aligns with the narrative that socio-economic factors, including income, play a crucial role in the health outcomes of a population. Higher incomes may correlate with better access to healthy food options, recreational activities, and healthcare services, which can contribute to lower obesity rates.<br>
+
+![Correlation Matrix bar](../image/SI618obesity/10.png?raw=true)
+
+In the high-obesity counties—Genesee, Monroe, Muskegon, Saginaw, and Tuscola—the poverty rates are notably higher on average than in the counties with lower obesity rates. Genesee and Saginaw Counties have poverty rates exceeding 20%, while Monroe County presents a lower rate of approximately 9.7%, still within the high-obesity group. This pattern suggests a correlation where higher obesity rates coincide with higher poverty rates. <br>
+Turning to the counties with lower obesity rates—Grand Traverse, Kent, Livingston, Oakland, and Washtenaw—we see generally lower poverty rates, with Livingston County standing out at approximately 6.2%. This indicates that counties with lower obesity rates also tend to have lower poverty rates, reinforcing the notion that socio-economic factors like poverty influence health outcomes, including obesity prevalence. <br>
+
+#### Examining the Correlation Between Chronic Diseases, Lifestyle Factors, and Obesity Rates <br>
+
+![Correlation Matrix bar](../image/SI618obesity/11.png?raw=true)
+
+We selected these chronic disease and lifestyle factors as variables because they have shown strong positive or negative correlations with obesity in previous analyses. To more effectively communicate these relationships, we have drawn scatter plots and included correlation coefficients, facilitating a rapid assessment of the associations. <br>
+
 ### Inferential Analysis <br>
 
 #### MODEL 1: Multiple Linear Regression Model (Obesity as the dependent variable. Multiple indicators of personal lifestyle habits as the dependent variable.) <br>
@@ -270,3 +305,6 @@ $Obesity = 0.7823 + 0.8982 \times PhysicalActivity + 0.2676 \times SleepLess7Hrs
   - `Poverty_Rate`: The coefficient $\beta_9$ is -2.5195 with a p-value close to 0, which is a strong negative and statistically significant association with obesity. <br>
 
 The R-squared value of 0.880 suggests that the model explains 88% of the variability in obesity rates. This high explanatory power implies a strong fit of the model, yet the significant coefficients should be considered with caution due to potential multicollinearity, as indicated by the large condition number. Careful consideration should be taken if deploying this model in a production environment. <br>
+
+
+
