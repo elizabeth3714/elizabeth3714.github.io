@@ -24,8 +24,7 @@ community initiatives and public private participation using transit stations as
 <ins>Decreasing Auto-dependency through a Multi-modal Transportation Network</ins> <br>
 This twofold strategy, as pointed out by Vuchic (1999), should on the one hand compress the
 volume of private cars, and on the other hand enhance the transit-oriented system in the inner core of a
-<!--more-->
-city. The nitty-gritty should be examined regarding relation of private cars and public transit, and the
+city.<!--more--> The nitty-gritty should be examined regarding relation of private cars and public transit, and the
 arterial streets versus the freeways (Vuchic, 1999, p. 264). To decrease the level of auto-dependency,
 decrease inner city car use, and enhance the outer freeway system to undermine the disruption from
 non-destination traffic. To enhance the multi-modal transportation network, the intermodal connection
