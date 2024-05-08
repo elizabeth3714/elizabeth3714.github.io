@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obesity Occurrence Analysis: the associations between various personal behavioral and socioeconomic factors
+title: Obesity Occurrence Analysis -- the associations between various personal behavioral and socioeconomic factors
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
