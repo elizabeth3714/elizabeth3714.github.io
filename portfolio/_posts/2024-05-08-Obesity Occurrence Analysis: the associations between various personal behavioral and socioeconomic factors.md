@@ -170,7 +170,7 @@ Beside correlation among health conditions, we would like to further understand 
 
 #### Pairplot by Dominant Race Group <br>
 
-![Correlation Matrix bar](../image/SI618obesity/7.png?raw=true)
+![Pair Plot](../image/SI618obesity/7.png?raw=true)
 
 To add a dimention to the pairplot, the original numeric data for racial groups have been converted to categorical data. The method is to pick the dominant group in population and create a new column with the race as the value. This is a relatively simple and brutal approach for the purpose of data visualization. <br>
 
@@ -180,7 +180,7 @@ Pairplots of selected variables are depicted in the chart above. We would like t
 
 ### Comparative Analysis <br>
 
-![Correlation Matrix bar](../image/SI618obesity/8.png?raw=true)
+![Comparison1](../image/SI618obesity/8.png?raw=true)
 
 The scatterplots represent the relationships between the obesity rate and the percentages of various racial demographics within the dataset. Each plot corresponds to a different racial demographics, and the correlation coefficient (rr
 r) for each relationship is provided in the title of the respective plots. <br>
@@ -197,12 +197,12 @@ By merging these two datasets, we can more accurately assess the correlation bet
 
 #### Assessing the Relationship Between Household Income and Obesity Rates <br>
 
-![Correlation Matrix bar](../image/SI618obesity/9.png?raw=true)
+![Comparison2](../image/SI618obesity/9.png?raw=true)
 
 The median household income in counties with higher obesity rates tends to be lower than that in those with lower obesity rates. For instance, Genesee County, with one of the highest obesity rates, has a median household income of approximately $43,432. In contrast, Livingston County, which falls into the lower obesity rate category, shows a substantially higher median household income of approximately $74,590. <br>
 This pattern suggests an inverse relationship between median household income and obesity rates, where counties with lower median household incomes tend to have higher obesity rates. Conversely, counties with higher median incomes, such as Livingston and Oakland, display lower obesity rates. This trend aligns with the narrative that socio-economic factors, including income, play a crucial role in the health outcomes of a population. Higher incomes may correlate with better access to healthy food options, recreational activities, and healthcare services, which can contribute to lower obesity rates.<br>
 
-![Correlation Matrix bar](../image/SI618obesity/10.png?raw=true)
+![Comparison3](../image/SI618obesity/10.png?raw=true)
 
 In the high-obesity counties—Genesee, Monroe, Muskegon, Saginaw, and Tuscola—the poverty rates are notably higher on average than in the counties with lower obesity rates. Genesee and Saginaw Counties have poverty rates exceeding 20%, while Monroe County presents a lower rate of approximately 9.7%, still within the high-obesity group. This pattern suggests a correlation where higher obesity rates coincide with higher poverty rates. <br>
 Turning to the counties with lower obesity rates—Grand Traverse, Kent, Livingston, Oakland, and Washtenaw—we see generally lower poverty rates, with Livingston County standing out at approximately 6.2%. This indicates that counties with lower obesity rates also tend to have lower poverty rates, reinforcing the notion that socio-economic factors like poverty influence health outcomes, including obesity prevalence. <br>
@@ -224,7 +224,7 @@ We selected these chronic disease and lifestyle factors as variables because the
 - Confidence Interval: We chose a 99% confidence interval. <br>
 - We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and indicators of personal lifestyle habits through multiple linear regression modeling. <br>
 
-![Correlation Matrix bar](../image/SI618obesity/model1.png)
+![Model1](../image/SI618obesity/model1.png)
 
 So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times \text{PhysicalActivity} + 0.2330 \times \text{SleepLess7Hrs} + 
 2.7568 \times \text{Diabetes} - 4.7811 \times \text{Stroke} - 1.0357 \times \text{FairPoorHealth} + 0.6658 \times \text{BingeDrinking} + \varepsilon$ <br>
@@ -246,7 +246,7 @@ So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times 
 - $H_A$: At least one race has a different mean obesity rate than the other races. <br>
 - Significance Level: 0.05 <br>
 
-![Correlation Matrix bar](../image/SI618obesity/model2.png)
+![Model2](../image/SI618obesity/model2.png)
 
 **Interpretation** <br>
 - The value of F-statistic is large while the p-value is 0.0<0.05. we have enough evidence to reject the null hypothesis, i.e., to support the alternative hypothesis that there is a significant difference in the mean value of obesity rates among the races. <br>
@@ -262,7 +262,7 @@ So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times 
 - Confidence interval: we chose a 95% confidence interval. <br>
 - We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and Races through multiple linear regression modeling. <br>
 
-![Correlation Matrix bar](../image/SI618obesity/model3.png)
+![Model3](../image/SI618obesity/model3.png)
 
 So the function can be expressed as:<br>
 $Obesity = 37.3338 - 0.0001 \times MedianHHIncome + 0.0009 \times Bachelors Below + 18.1603 \times PovertyRate + \varepsilon$<br>
@@ -286,7 +286,7 @@ $Obesity = 37.3338 - 0.0001 \times MedianHHIncome + 0.0009 \times Bachelors Belo
 - Confidence Interval: We chose a 99% confidence interval. <br>
 - We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and indicators of Individual lifestyle habit and socio-econmic through multiple linear regression modeling. <br>
 
-![Correlation Matrix bar](../image/SI618obesity/model4.png)
+![Model4](../image/SI618obesity/model4.png)
 
 The regression function can be expressed as: <br>
 $Obesity = 0.7823 + 0.8982 \times PhysicalActivity + 0.2676 \times SleepLess7Hrs + 2.7900 \times Diabetes - 5.1028 \times Stroke - 0.9069 \times FairPoorHealth + 0.5433 \times BingeDrinking - 0.000044 \times MedianHHIncome + 0.0004 \times BachelorBelow - 2.5195 \times PovertyRate + \varepsilon$ <br>
@@ -344,9 +344,9 @@ In this session, we will delve into various machine learning models to maximize 
 #### Naïve Bayes <br>
 
 
-![Correlation Matrix bar](../image/SI618obesity/comparison_ml_models.png)
+![Comparison of Machine Learning Models](../image/SI618obesity/comparison_ml_models.png)
 
-![Correlation Matrix bar](../image/SI618obesity/ROCcurve.png)
+![ROC Curve](../image/SI618obesity/ROCcurve.png)
 
 
 
