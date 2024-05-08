@@ -405,6 +405,6 @@ Typically, ROC AUC is reserved for binary variable assessments. In this study, t
 <br>
 
 <div class="message">
-  This is the term project of SI618 Data Manipulation and Analysis at the University of Michigan. The project is 
+  This is the term project of **SI618: Data Manipulation and Analysis** at the University of Michigan. The project is 
   co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division. <br>
 </div>
