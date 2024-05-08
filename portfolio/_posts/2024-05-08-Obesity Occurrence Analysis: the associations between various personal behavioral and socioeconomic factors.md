@@ -5,12 +5,6 @@ truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
-<div class="message">
-  This is the term project of SI618 Data Manipulation and Analysis at the University of Michigan. The project is 
-  co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division. <br>
-</div>
-<br>
-
 [![Click for Video Presentation](../image/SI618obesity/ROC.png?raw=true)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
 
 ### Overview <br>
@@ -405,3 +399,9 @@ Upon evaluating the machine learning models, it emerged that the performance out
 When it comes to the question of which metric is more compelling, the answer hinges on the data distribution. Accuracy tends to be a suitable metric for uniformly distributed data. However, ROC AUC assumes greater importance with imbalanced datasets, considering the balance between precision and recall, while accuracy might be misleading if the data distribution is skewed. <br>
 
 Typically, ROC AUC is reserved for binary variable assessments. In this study, the obesity rate demonstrated a more balanced distribution as a binary variable (`Low`: 1380, `High`: 1350) compared to its distribution as a categorical variable (`Medium`: 1569, `Low`: 911, `High`: 250). Hence, we contend that the ROC AUC metric offers a more accurate reflection of a model’s efficacy for this dataset, with the random forest model emerging as the top performer amongst the four contenders. <br>
+
+
+<div class="message">
+  This is the term project of SI618 Data Manipulation and Analysis at the University of Michigan. The project is 
+  co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division. <br>
+</div>
