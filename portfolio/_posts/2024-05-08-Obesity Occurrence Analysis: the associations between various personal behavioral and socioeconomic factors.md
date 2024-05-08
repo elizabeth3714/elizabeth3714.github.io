@@ -26,7 +26,7 @@ By merging these datasets, the analysis aims to reveal the associations between 
 lifestyle choices and socioeconomic conditions at the neighborhood level. The goal is to disentangle the intricate web 
 of factors—from individual behaviors to community-wide economic indicators—influencing obesity and chronic disease rates. 
 Employing advanced statistical analysis and data visualization tools, the research intends to pinpoint critical determinants 
-of obesity, shedding light on the multifaceted nature of health disparities within Michigan's diverse communities. <br>
+of obesity, shedding light on the multifaceted nature of health disparities within Michigan's diverse communities. <!--more--><br>
 
 ### Motivation <br>
 
