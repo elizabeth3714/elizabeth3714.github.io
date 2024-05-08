@@ -180,7 +180,7 @@ Pairplots of selected variables are depicted in the chart above. We would like t
 
 ### Inferential Analysis <br>
 
-## MODEL 1: Multiple Linear Regression Model (Obesity as the dependent variable. Multiple indicators of personal lifestyle habits as the dependent variable.) <br>
+#### MODEL 1: Multiple Linear Regression Model (Obesity as the dependent variable. Multiple indicators of personal lifestyle habits as the dependent variable.) <br>
 
 - $Y$:`Obesity`; $X_1$:`PhysicalActivity`; $X_2$:`SleepLess7Hrs`; $X_3$:`Diabetes`; $X_4$:`Stroke`; $X_5$:`FairPoorHealth`; $X_6$:`BingeDrinking` <br>
 - $Y=\beta_0+\beta_1X_1 +\beta_2X_2 + \beta_3 X_3 + \beta_4 X_4+ \beta_5 X_5 + \beta_6 X_6 + \epsilon$ <br>
@@ -194,3 +194,79 @@ Pairplots of selected variables are depicted in the chart above. We would like t
 So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times \text{PhysicalActivity} + 0.2330 \times \text{SleepLess7Hrs} + 
 2.7568 \times \text{Diabetes} - 4.7811 \times \text{Stroke} - 1.0357 \times \text{FairPoorHealth} + 0.6658 \times \text{BingeDrinking} + \varepsilon$ <br>
 
+**Interpretation** <br>
+- For the t-test: <br>
+  - const: The intercept is -4.3476 and the p-value is almost 0 which means it is statistically significant. <br>
+  - `PhysicalActivity`: The coefficient of physical activity ($\beta_1$) is 1.0794 with a p-value of almost 0 indicating that lack of physical activity is positively associated with obesity and this result is statistically significant. <br>
+  - `SleepLess7Hrs`: The coefficient of SleepLess7Hrs ($\beta_2$) is 0.2330 with a p-value of almost 0, indicating that lack of sleep is positively associated with obesity and this result is statistically significant. <br>
+  - `Diabetes`: The coefficient of Diabetes ($\beta_3$) is 22.7568 with a p-value of almost 0, indicating that diabetes is positively and statistically significant associated with obesity. <br>
+  - `Stroke`: The coefficient of Stroke ($\beta_4$) is -4.7811 with a p-value of almost 0, indicating that Stroke is negatively associated with Obesity and this result is statistically significant. <br>
+  - `FairPoorHealth`: The coefficient of poor health ($\beta_5$) is -1.0357 with a p-value of almost 0, indicating that poor health is negatively associated with obesity and this result is statistically significant. <br>
+  - `BingeDrinking`: The coefficient for Binge Drinking ($\beta_6$) is 0.6658 with a p-value of almost 0, indicating that Binge Drinking is positively and statistically significantly associated with Obesity. <br>
+
+#### MODEL 2: Analysis of variance: assessing the effect of race on obesity rates <br>
+
+- $Y$:`Obesity`; $X_1$:`White`; $X_2$:`Black`; $X_3$:`American_Indian`; $X_4$:`Asian`; $X_5$:`Hawaiian_Islander`; $X_6$:`Other_Race` <br>
+- $H_0$: There is no significant difference in the mean obesity rate between the races. <br>
+- $H_A$: At least one race has a different mean obesity rate than the other races. <br>
+- Significance Level: 0.05 <br>
+
+![Correlation Matrix bar](../image/SI618obesity/model2.png)
+
+**Interpretation** <br>
+- The value of F-statistic is large while the p-value is 0.0<0.05. we have enough evidence to reject the null hypothesis, i.e., to support the alternative hypothesis that there is a significant difference in the mean value of obesity rates among the races. <br>
+**Why ANOVA?**  <br>
+- We chose the chi-square test to examine whether race has a significant effect on obesity rates because the race variable is a categorical variable of more than three, whereas obesity rates are a continuous variable. And ANOVA is very effective in comparing differences between the means of three or more samples. <br>
+
+#### MODEL 3: multiple linear regression model(Obesity as the dependent variable. Median Household income,poverty rate and education level as the dependent variables.) <br>
+
+- $Y$:`Obesity`; $X_1$:`Median_HH_Income`; $X_2$:`Bachelors_Below`; $X_3$:`Poverty_Rate` <br>
+- $Y=\beta_0+\beta_1X_1 +\beta_2X_2 + \beta_3 X_3 + \epsilon$ <br>
+- $H_0:\beta_1=\beta_2=\beta_3=0$ <br>
+- $H_A$: at least one $\beta_i$ is non-zreo <br>
+- Confidence interval: we chose a 95% confidence interval. <br>
+- We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and Races through multiple linear regression modeling. <br>
+
+![Correlation Matrix bar](../image/SI618obesity/model3.png)
+
+So the function can be expressed as:<br>
+$Obesity = 37.3338 - 0.0001 \times MedianHHIncome + 0.0009 \times Bachelors Below + 18.1603 \times PovertyRate + \varepsilon$<br>
+
+#### Interpretation <br>
+- For the t-test: <br>
+  - `const`: The intercept is 37.3338, and the p-value is almost 0 which means it is statistically significant. This suggests a baseline obesity prevalence when all predictor variables are set to zero. <br>
+  - `Median_HH_Income`: The coefficient of median household income ($\beta_1$) is -0.0001 with a p-value of almost 0, indicating that as median household income increases, obesity rates slightly decrease, and this result is statistically significant. <br>
+  - `Bachelors_Below`: The coefficient for the population with education below a bachelor's degree ($\beta_2$) is 0.0009 with a p-value of almost 0, suggesting that the obesity rate for those without a bachelor's degree is 0.009 units higher than the obesity rate for those with a bachelor's degree. <br>
+  - `Poverty_Rate`: The coefficient for the poverty rate ($\beta_3$) is 18.1603 with a p-value of almost 0, indicating a strong positive association with obesity rates, and this result is statistically significant. <br>
+- For R-squared value: <br>
+  - The R-squared value of the model is 0.499, which implies that approximately 49.9% of the variability in obesity is explained by the model. Given the statistical significance of the variables and the model's explanatory power, there is a strong case for its consideration in production environments, provided that there is an understanding of the implications and limitations associated with the socio-economic factors in question.  <br>
+
+
+#### MODEL 4: multiple linear regression model(Obesity as the dependent variable. Individual lifestyle habit indicators and socio-economic indicators as dependent variables.) <br>
+
+- $Y$:`Obesity`; $X_1$:`PhysicalActivity`; $X_2$:`SleepLess7Hrs`; $X_3$:`Diabetes`; $X_4$:`Stroke`; $X_5$:`FairPoorHealth`; $X_6$:`BingeDrinking`; $X_7$:`Median_HH_Income`; $X_8$:`Bachelors_Below`; $X_9$:`Poverty_Rate` <br>
+- $Y=\beta_0+\beta_1X_1 +\beta_2X_2 + \beta_3 X_3 + \beta_4 X_4 + \beta_5 X_5 + \beta_5 X_5 + \beta_6 X_6 + \beta_7 X_7 + \beta_8 X_8 + \beta_9 X_9 + \epsilon$ <br>
+- $H_0:\beta_1=\beta_2=\beta_3=\beta_4=\beta_5=\beta_6=\beta_7=\beta_8=\beta_9=0$ <br>
+- $H_A$: at least one $\beta_i$ is non-zreo <br>
+- Confidence Interval: We chose a 99% confidence interval. <br>
+- We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and indicators of Individual lifestyle habit and socio-econmic through multiple linear regression modeling. <br>
+
+![Correlation Matrix bar](../image/SI618obesity/model4.png)
+
+The regression function can be expressed as: <br>
+$Obesity = 0.7823 + 0.8982 \times PhysicalActivity + 0.2676 \times SleepLess7Hrs + 2.7900 \times Diabetes - 5.1028 \times Stroke - 0.9069 \times FairPoorHealth + 0.5433 \times BingeDrinking - 0.000044 \times MedianHHIncome + 0.0004 \times BachelorBelow - 2.5195 \times PovertyRate + \varepsilon$ <br>
+
+**Interpretation** <br>
+- For the t-test:<br>
+  - `const`: The intercept is 0.7823 with a p-value of 0.479, indicating it is not statistically significant. <br>
+  - `PhysicalActivity`: The coefficient $\beta_1$ is 0.8982 with a p-value close to 0, signifying a positive and statistically significant association with obesity. <br>
+  - `SleepLess7Hrs`: The coefficient $\beta_2$ is 0.2676 with a p-value close to 0, also indicating a positive and statistically significant association with obesity. <br>
+  - `Diabetes`: The coefficient $\beta_3$ is 2.7900 with a p-value close to 0, suggesting a strong positive and statistically significant association with obesity. <br>
+  - `Stroke`: The coefficient $\beta_4$ is -5.1028 with a p-value close to 0, indicating a negative and statistically significant association with obesity. <br>
+  - `FairPoorHealth`: The coefficient $\beta_5$ is -0.9069 with a p-value close to 0, suggesting a negative and statistically significant association with obesity. <br>
+  - `BingeDrinking`: The coefficient $\beta_6$ is 0.5433 with a p-value close to 0, showing a positive and statistically significant association with obesity. <br>
+  - `Median_HH_Income`: The coefficient $\beta_7$ is -0.000044 with a p-value close to 0, indicating that higher income levels are negatively associated with obesity rates in a statistically significant way. But the association is weak. <br>
+  - `Bachelors_Below`: The coefficient $\beta_8$ is 0.0004 with a p-value of 0.600, showing no statistically significant association with obesity. <br>
+  - `Poverty_Rate`: The coefficient $\beta_9$ is -2.5195 with a p-value close to 0, which is a strong negative and statistically significant association with obesity. <br>
+
+The R-squared value of 0.880 suggests that the model explains 88% of the variability in obesity rates. This high explanatory power implies a strong fit of the model, yet the significant coefficients should be considered with caution due to potential multicollinearity, as indicated by the large condition number. Careful consideration should be taken if deploying this model in a production environment. <br>
