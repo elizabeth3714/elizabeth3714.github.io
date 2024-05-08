@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
   co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division.
 </div>
 
-![Click for Video Presentation](https://github.com/elizabeth3714/portfolio/image/SI618obesity/machine_learning.png?raw=true)(https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
+![Click for Video Presentation](../image/SI618obesity/machine_learning.png?raw=true)(https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
 
 ### Overview <br>
 
@@ -106,5 +106,5 @@ The columns are a mix of data types: the `NAME`, `state`, `county`, and `tract` 
 
 #### Histogram of Health Outcome
 
-![Histograms of Health-related Columns](https://github.com/elizabeth37714/portfolio/image/SI618obesity/1.png?raw=true)
+![Histograms of Health-related Columns](../image/SI618obesity/1.png?raw=true)
 
