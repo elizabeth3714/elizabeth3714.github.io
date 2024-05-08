@@ -19,14 +19,14 @@ Strategic Goal #2 has two objectives about housing supply and rental assistance.
 objectives directly address the strategic goal. <br>
 **1.1 Alignment of indicators with the goal and objective** <br>
 All the indicators under housing supply address the numbers of housing produced, and the
-programs/schemes are directly related to financial assistance. First, all the indicators have
+programs/schemes are directly related to financial assistance. First, all the<!--more--> indicators have
 focused on the numbers of different types of housing units. The numbers of units provided to the
 tenants are directly related to HUD’s capacity in housing supply. A larger number of housing
 supply would benefit more target tenants who need assistance in owning or renting a place to
 live. Second, almost all indicators are measurements about the financial assistance HUD
 provides. Financial assistance serves as immediate paths to housing accessibility. The indicators
 are also about a good combination of the housing programs HUD provided – for example, MAP
-and Risk-Sharing construction/rehabilitation programs. <br>  <!--more-->
+and Risk-Sharing construction/rehabilitation programs. <br> 
 Similarly, the indicators under rental assistance also focus on the numbers and percentages.
 Three indicators – the occupancy rates, the utilization rates of housing vouchers, and number of
 families served by rental assistance are closely related to the performance of rental assistance
