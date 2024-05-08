@@ -4,6 +4,7 @@ title: Obesity Occurrence Analysis: the associations between various personal be
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
+
 <div class="message">
   This is the term project of SI618 Data Manipulation and Analysis at the University of Michigan. The project is 
   co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division.
