@@ -13,6 +13,7 @@ excerpt_separator: <!--more-->
 **From:** Elizabeth Wang, Planning Consultant, Penn City Institute <br>
 **Re:** Proposing a Transit-oriented Development Plan for the City of Philadelphia <br>
 ----------------------------------------------------------------------------------- <br>
+
 **Summary** <br>
 The city of Philadelphia, benefiting from its classic and contemporary cultural and historic
 heritages, presents its potential as a destination for residents and visitors to gather, stay and celebrate.
@@ -23,6 +24,7 @@ economy. Your office should advocate major strategies include: 1) to enhance the
 transportation network in the city and decrease people’s level of auto-dependency; 2) to achieve an
 organic urban form through mixed uses, detailed design and compact development; 3) to leverage
 community initiatives and public private participation using transit stations as catalysts. <br>
+
 **Strategies** <br>
 <ins>Decreasing Auto-dependency through a Multi-modal Transportation Network</ins> <br>
 This twofold strategy, as pointed out by Vuchic (1999), should on the one hand compress the
@@ -98,6 +100,7 @@ growth by enhancing the city’s circulation and vibrancy by attracting more pop
 around the public domain. The emergence of community initiated entrepreneurial services would
 further balance the negative impacts to disadvantaged groups in the city because of urban
 gentrification. <br>
+
 **Conclusion** <br>
 In conclusion, to facilitate Philadelphia’s TOD plan, policy makers should regulate private cars in
 city, balance traffic by alternative outside freeway networks, and build up organic urban clusters around
