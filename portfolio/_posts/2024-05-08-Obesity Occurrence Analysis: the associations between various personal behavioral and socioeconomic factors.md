@@ -349,7 +349,7 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Logistic Regression <br>
 
-![Naive Bayes](../image/SI618obesity/LR.png)
+![Logistic](../image/SI618obesity/LR.png)
 
 * Preprocessing: Model #3 processes the independent variables using a standard scaler, which achieves higher accuracy. <br>
 * Accuracy: The model achieves an overall accuracy score of 88.33%, indicating that about 88.33% of all predictions are correct. <br>
@@ -357,7 +357,7 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Random Forest <br>
 
-![Naive Bayes](../image/SI618obesity/RF.png)
+![RF](../image/SI618obesity/RF.png)
 
 * Preprocessing: The model uses a standard scaler and dimension reduction to process independent variables. The accuracy is the highest when the number of components is 20. This is the best model for the Random Forest method. <br>
 * Accuracy: The model achieves an overall accuracy score of 88.23%, indicating the proportion of all predictions being correct. <br>
@@ -365,7 +365,7 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Support Vector Machine <br>
 
-![Naive Bayes](../image/SI618obesity/SVM.png)
+![SVM](../image/SI618obesity/SVM.png)
 
 * In assessing the effectiveness of the SVM models, both the radial basis function (rbf) and the polynomial (poly) kernel were employed. When Obesity is considered as a binary variable into Low and High categories, the polynomial kernel SVM demonstrated superior accuracy, registering at 0.88. However, when the obesity rate was expanded into three categories—Low,Medium, and High —the distinction in performance between the rbf and poly kernels was marginal, with scores of 0.92 and 0.91, respectively. <br>
 * In a comparative analysis with other machine learning models, including Bayes, logistic regression, and random forest, the SVM models outperformed their counterparts, achieving the highest accuracy metrics. <br>
