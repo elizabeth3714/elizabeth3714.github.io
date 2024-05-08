@@ -109,3 +109,14 @@ The columns are a mix of data types: the `NAME`, `state`, `county`, and `tract` 
 
 ![Histograms of Health-related Columns](../image/SI618obesity/1.png?raw=true)
 
+#### Visualizaiton of Population by Race in Percentage
+
+![Race Percentage](../image/SI618obesity/2.png?raw=true)
+
+This diagram shows the racial composition across 50 randomly selected census tracts, with each racial group represented by a unique color. The population percentages are scaled to a total of 100% for comparative purposes. It should be noted that the Hispanic population overlaps with other racial categories; therefore, when all groups are combined, the total percentage exceeds 100%. This overlap allows for a detailed examination of the distribution and concentration of the Hispanic population alongside other groups. For clarity, the representation of the Hispanic population extends beyond the 100% mark to highlight its integration with other racial demographics. <br>
+
+Observations include: <br>
+
+- **White Population:** Predominantly the majority in most of the census tracts. <br>
+- **African American Population:** Significant concentrations of African American residents dominate in certain tracts. <br>
+- **Hispanic, Asian and Other Racial Group:** There is a noticeable agglomeration of Hispanic individuals in several tracts, with the Asian and other racial groups also showing presence but to a lesser extent. <br>
