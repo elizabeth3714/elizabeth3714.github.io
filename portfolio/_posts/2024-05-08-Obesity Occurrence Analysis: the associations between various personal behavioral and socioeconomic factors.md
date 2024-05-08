@@ -10,6 +10,8 @@ excerpt_separator: <!--more-->
   co-authorized by Jessie Hu, Huanyu Ren and Elizabeth Wang, with equal work division.
 </div>
 
+![Click for Video Presentation](https://github.com/elizabeth3714/portfolio/image/SI618obesity/machine_learning.png?raw=true)(https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
+
 ### Overview <br>
 
 This study examines the correlation between obesity rates and various other factors, utilizing two robust datasets: 
