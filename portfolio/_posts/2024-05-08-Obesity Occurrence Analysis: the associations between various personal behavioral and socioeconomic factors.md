@@ -374,9 +374,9 @@ In this session, we will delve into various machine learning models to maximize 
 
 ![ROC Curve](../image/SI618obesity/ROC_curve.png)
 
-![ROC Curve](https://github.com/elizabeth3714/elizabeth3714.github.io/blob/master/portfolio/image/SI618obesity/ROC_curve.png)
+![ROC Curve](https://github.com/elizabeth3714/elizabeth3714.github.io/portfolio/image/SI618obesity/ROC_curve.png)
 
-![ROC Curve](https://raw.github.com/elizabeth3714/elizabeth3714.github.io/blob/master/portfolio/image/SI618obesity/ROC_curve.png)
+![ROC Curve](https://raw.github.com/elizabeth3714/elizabeth3714.github.io/portfolio/image/SI618obesity/ROC_curve.png)
 
 ![ROC Curve](./image/SI618obesity/ROC_curve.png)
 <br><img src="../image/SI618obesity/ROC_curve.png">
