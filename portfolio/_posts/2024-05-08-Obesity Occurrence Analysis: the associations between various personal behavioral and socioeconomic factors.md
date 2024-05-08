@@ -346,7 +346,7 @@ In this session, we will delve into various machine learning models to maximize 
 
 ![Comparison of Machine Learning Models](../image/SI618obesity/comparison_ml_models.png)
 
-![ROC Curve](../image/SI618obesity/ROCcurve.png)
+![ROC Curve](../image/SI618obesity/ROC_curve.png)
 
 
 
