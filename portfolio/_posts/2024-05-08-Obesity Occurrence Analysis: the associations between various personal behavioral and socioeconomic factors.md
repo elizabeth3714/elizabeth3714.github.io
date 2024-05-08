@@ -200,11 +200,13 @@ By merging these two datasets, we can more accurately assess the correlation bet
 ![Comparison2](../image/SI618obesity/9.png?raw=true)
 
 The median household income in counties with higher obesity rates tends to be lower than that in those with lower obesity rates. For instance, Genesee County, with one of the highest obesity rates, has a median household income of approximately $43,432. In contrast, Livingston County, which falls into the lower obesity rate category, shows a substantially higher median household income of approximately $74,590. <br>
+
 This pattern suggests an inverse relationship between median household income and obesity rates, where counties with lower median household incomes tend to have higher obesity rates. Conversely, counties with higher median incomes, such as Livingston and Oakland, display lower obesity rates. This trend aligns with the narrative that socio-economic factors, including income, play a crucial role in the health outcomes of a population. Higher incomes may correlate with better access to healthy food options, recreational activities, and healthcare services, which can contribute to lower obesity rates.<br>
 
 ![Comparison3](../image/SI618obesity/10.png?raw=true)
 
 In the high-obesity counties—Genesee, Monroe, Muskegon, Saginaw, and Tuscola—the poverty rates are notably higher on average than in the counties with lower obesity rates. Genesee and Saginaw Counties have poverty rates exceeding 20%, while Monroe County presents a lower rate of approximately 9.7%, still within the high-obesity group. This pattern suggests a correlation where higher obesity rates coincide with higher poverty rates. <br>
+
 Turning to the counties with lower obesity rates—Grand Traverse, Kent, Livingston, Oakland, and Washtenaw—we see generally lower poverty rates, with Livingston County standing out at approximately 6.2%. This indicates that counties with lower obesity rates also tend to have lower poverty rates, reinforcing the notion that socio-economic factors like poverty influence health outcomes, including obesity prevalence. <br>
 
 #### Examining the Correlation Between Chronic Diseases, Lifestyle Factors, and Obesity Rates <br>
@@ -311,6 +313,7 @@ The R-squared value of 0.880 suggests that the model explains 88% of the variabi
 #### Synthesis <br>
 
 The synthesis of descriptive and inferential statistics, alongside graphical analyses, has illuminated the complex relationship between racial demographics, health conditions, lifestyle factors, and obesity rates within Michigan's diverse counties. Our research questions centered on understanding these relationships and identifying any significant patterns that could inform public health initiatives. <br>
+
 Merging the CDC's PLACES data and the American Community Survey Data from the US Census has provided a comprehensive lens through which to view these correlations. This combined dataset enhances the reliability of the observed statistical associations and offers a more granular insight into the socioeconomic and behavioral factors at play. Such an integrated approach allows for a more robust analysis than what could be achieved with each dataset in isolation, leading to actionable intelligence that can drive targeted interventions to combat obesity at the community level. <br>
 
 #### Key Findings <br>
@@ -335,8 +338,10 @@ In this session, we will delve into various machine learning models to maximize 
 
 **Variables Selection methodology:** <br>
 * Variables are selected in different combination to achieve a higher accuracy.  <br>
+
 **Response variable:** <br>
 * Response variable has been trasnformed both into categorical and binary values. Both categorical and binary variable have been applied in separatate modes to expriment to find the optimal result. <br>
+
 **Methodology Selection for Preprocessing:**  <br>
 * Since the independent variables are primarily continuous, the initial phase will focus on standard scaling and dimensionality reduction. The efficacy of these methods will likely vary across different models and will be assessed individually. <br>
 * During preprocessing, one-hot encoding was tested to transform the categorical variable representing the predominant racial group. Observations indicate that the outcomes using one-hot encoded racial variables are strikingly similar to those obtained with the percentage representation of racial groups. Consequently, we will primarily employ the percentage variables in most models. <br>
