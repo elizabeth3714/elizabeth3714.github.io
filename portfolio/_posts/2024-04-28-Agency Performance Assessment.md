@@ -17,10 +17,10 @@ example of agency performance assessment, focusing on the alignment, effectivene
 significance of the performance indicators as around the strategical goals. <br>
 
 Two strategic goals will be covered with in-depth assessment: <br>
-**• Strategic Goal #2:** Ensure Access to and Increase the Production of Affordable Housing <br>
-**• Strategic Goal #4:** Advance Sustainable Communities <br>
+* Strategic Goal #2: Ensure Access to and Increase the Production of Affordable Housing <br>
+* Strategic Goal #4: Advance Sustainable Communities <br>
 
-###1. Strategic Goal #2 <br>
+### 1. Strategic Goal #2 <br>
 
 Strategic Goal #2 has two objectives about housing supply and rental assistance. These two
 objectives directly address the strategic goal. <br>
@@ -85,7 +85,8 @@ enriched to measure the advancement in the quality of living. Again, in order to
 substantial impact on the overall situation of the population who needs rental assistance, more
 statistics on the overall percentage increase, and details about specific aspects of long-term
 benefits would be helpful. <br>
-###2. Strategic Goal #4 <br>
+
+### 2. Strategic Goal #4 <br>
 
 Goal #4 is newly drafted since 2021 when Biden addressed environment resilience and
 justice in his President Executive Order, therefore, the indicators only show records starting
