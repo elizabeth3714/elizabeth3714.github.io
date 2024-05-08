@@ -89,7 +89,9 @@ Our research utilizes two pivotal data sets: <br>
         - We selected some variables related to personal behavior (such as alcohol abuse, smoking, lack of sleep) and some chronic disease variables (arthritis, hypertension, etc.) in the original data set. However, we only selected some chronic diseases as analysis samples, because the data set is a little too large. <br>
     - list of some key variables <br>
         - some identifiers like `StateAbbr`,`StateDesc`,`CountyName`,`CountyFIPS`,`Geoid` and `TractFIPS` help us identify the areas;  <br>
-        - There are also categories that represent the prevalence of chronic diseases, such as `ARTHRITIS_CrudePrev`,`ARTHRITIS_Crude95CI`,`DEPRESSION_CrudePrev`,`DEPRESSION_Crude95CI`,`DIABETES_CrudePrev`,`DIABETES_Crude95CI` and other such indicators. <br>
+        - There are also categories that represent the prevalence of chronic diseases, such as `ARTHRITIS_CrudePrev`,`ARTHRITIS_Crude95CI`,<br>
+        `DEPRESSION_CrudePrev`,`DEPRESSION_Crude95CI`,<br>
+        `DIABETES_CrudePrev`,`DIABETES_Crude95CI` and other such indicators. <br>
         - There are categories that represent individual behavioural indicators, such as `BINGE_CrudePrev` for the prevalence of alcohol abuse among adults, `CSMOKING_CrudePrev` for the prevalence of smoking among adults, and `SLEEP_CrudePrev` for the proportion of people who sleep less than seven hours. <br>
     - The DataFrame comprises 2,745 entries, indicating the presence of 1,000 rows indexed from 32376 to 35120. It includes 15 columns, each representing different attributes potentially associated with various health metrics related to chronic diseases across different counties and states. The dataset is complete with no missing values. The columns `StateAbbr` (State Abbreviation) and `CountyName` are of the object type. The column `TractFIPS` is the int64 data type. The remaining columns are of the float64 data type. <br>
 
