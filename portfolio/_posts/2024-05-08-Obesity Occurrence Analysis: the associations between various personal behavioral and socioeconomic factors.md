@@ -382,6 +382,8 @@ In this session, we will delve into various machine learning models to maximize 
 
 ![ROC Curve](https://github.com/elizabeth3714/elizabeth3714.github.io/blob/master/portfolio/image/SI618obesity/ROC_curve.png)
 
+![ROC Curve](./image/SI618obesity/ROC_curve.png)
+
 The graph above represents the Receiver Operating Characteristic (ROC) curves for four machine learning models: Naïve Bayes, Logistic Regression, Random Forest, and Support Vector Machine (SVM). The ROC curve plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various threshold settings, and the Area Under the Curve (AUC) provides a single-value summary of the ROC curve's performance. <br>
 
 **Naïve Bayes (AUC = 0.88):** The blue curve represents the Naive Bayes classifier. An AUC of 0.88 indicates good predictive performance, but there is room for improvement compared to the other models. The curve is closer to the top-left corner than a random guess (the diagonal line) but not as close as the other models. <br>
