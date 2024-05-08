@@ -334,15 +334,19 @@ In experiment with different data visualization and analytics techniques, since 
 In this session, we will delve into various machine learning models to maximize prediction accuracy or minimize the misclassification rate of the response variables. Data preprocessing is an essential adjunct to each model's design, as different machine learning models may necessitate distinct preprocessing steps. This notion extends to the selection of variables; depending on the model, various combinations of variables can significantly influence the emerging patterns. <br>
 
 **Variables Selection methodology:** <br>
-Variables are selected in different combination to achieve a higher accuracy.  <br>
+* Variables are selected in different combination to achieve a higher accuracy.  <br>
 **Response variable:** <br>
-Response variable has been trasnformed both into categorical and binary values. Both categorical and binary variable have been applied in separatate modes to expriment to find the optimal result. <br>
+* Response variable has been trasnformed both into categorical and binary values. Both categorical and binary variable have been applied in separatate modes to expriment to find the optimal result. <br>
 **Methodology Selection for Preprocessing:**  <br>
-Since the independent variables are primarily continuous, the initial phase will focus on standard scaling and dimensionality reduction. The efficacy of these methods will likely vary across different models and will be assessed individually. <br>
-During preprocessing, one-hot encoding was tested to transform the categorical variable representing the predominant racial group. Observations indicate that the outcomes using one-hot encoded racial variables are strikingly similar to those obtained with the percentage representation of racial groups. Consequently, we will primarily employ the percentage variables in most models. <br>
+* Since the independent variables are primarily continuous, the initial phase will focus on standard scaling and dimensionality reduction. The efficacy of these methods will likely vary across different models and will be assessed individually. <br>
+* During preprocessing, one-hot encoding was tested to transform the categorical variable representing the predominant racial group. Observations indicate that the outcomes using one-hot encoded racial variables are strikingly similar to those obtained with the percentage representation of racial groups. Consequently, we will primarily employ the percentage variables in most models. <br>
+
+#### Naïve Bayes <br>
 
 
+![Correlation Matrix bar](../image/SI618obesity/comparison_ml_models.png)
 
+![Correlation Matrix bar](../image/SI618obesity/ROCcurve.png)
 
 
 
