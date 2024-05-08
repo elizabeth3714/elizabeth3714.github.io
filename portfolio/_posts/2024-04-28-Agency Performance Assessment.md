@@ -20,7 +20,8 @@ Two strategic goals will be covered with in-depth assessment: <br>
 **• Strategic Goal #2:** Ensure Access to and Increase the Production of Affordable Housing <br>
 **• Strategic Goal #4:** Advance Sustainable Communities <br>
 
-**1. Strategic Goal #2** <br>
+###1. Strategic Goal #2 <br>
+
 Strategic Goal #2 has two objectives about housing supply and rental assistance. These two
 objectives directly address the strategic goal. <br>
 **1.1 Alignment of indicators with the goal and objective** <br>
@@ -84,7 +85,8 @@ enriched to measure the advancement in the quality of living. Again, in order to
 substantial impact on the overall situation of the population who needs rental assistance, more
 statistics on the overall percentage increase, and details about specific aspects of long-term
 benefits would be helpful. <br>
-**2. Strategic Goal #4** <br>
+###2. Strategic Goal #4 <br>
+
 Goal #4 is newly drafted since 2021 when Biden addressed environment resilience and
 justice in his President Executive Order, therefore, the indicators only show records starting
 FY21/22. Goal #4 address two pillars: climate resilience and environmental equity. <br>
@@ -131,7 +133,9 @@ interpretation therefore help to alleviate public criticism and the chance of fa
 (Behn, 2003; Joyce, 1997) However, such efforts alleviate the effectiveness of an objective in
 providing pointers of the policy progress, problem improvement, and the overall achievement the
 agency performed. (Behn, 2003) <br>
-**3. Conclusion** <br>
+
+###3. Conclusion <br>
+
 Under Goal #2, the indicators and measures align with the objectives. The indicators
 successfully depict the performance patterns in recent years: with steady affordable housing
 supply, decreased market-sector units and all other housing programs, HUD has slowed down in
@@ -153,6 +157,8 @@ what extent the efforts has changed the situation for the underserved communitie
 vague language, the agency can leave wiggle room for further interpretation about climate and
 environment agenda, and less prone to public criticism if policy results are not concrete or
 deviate from the goal. <br>
-**Reference** <br>
+
+###Reference <br>
+
 Behn, Bob. (2003). Why Measure Performance? Different Purposes Require Different Measures.
 Public Administration Review 63(5): 586-606.5 <br>
