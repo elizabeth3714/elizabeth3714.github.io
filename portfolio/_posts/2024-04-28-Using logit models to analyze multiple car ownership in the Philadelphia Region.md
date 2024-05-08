@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using logit models to analyze multiple car ownership in the Philadelphia Region
+title: Using Logit Models to Analyze Multiple Car Ownership in the Philadelphia Region
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
@@ -20,7 +20,7 @@ Factors that may affect multiple car ownership have been examined, including dem
 counties travelers are from, car parking and transit subsidies and commute mode choices. The study
 reveals significant differences of multiple car ownership among different social and racial groups based
 on demographic features, and household locations. The study further reveals possible solutions using
-subsidies to incentivize people to prefer alternative commuting modes to owning an additional car. <br>
+subsidies to incentivize people to prefer alternative commuting modes to owning an additional car.<!--more--> <br>
 
 **Objectives** <br>
 
