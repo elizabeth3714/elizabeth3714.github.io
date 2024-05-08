@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 <div class="message">
   This is the term paper of CPLN550 Introduction to Transportation Planning at the 
-  University of Pennsylvania. The paper was completed on an individual basis.
+  University of Pennsylvania. The memo was completed on an individual basis.
 </div>
 
 **To:** Darrell L. Clarke, District 5 Council President <br>
