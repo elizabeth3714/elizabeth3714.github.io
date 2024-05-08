@@ -45,6 +45,7 @@ as owning more than one car. Independent variables include demographic features 
 race and employment status. Gender, race and employment status have been transformed as dummy
 variables to avoid meaningless ranking for nominal values. Similarly, counties of original for each
 household were transferred into dummy variables. <br>
+
 The study further examines monetary incentives on people’s decision of multiple care
 ownership. Parking and transit subsidies have been examined, in both dummy variables and a
 percentage of subsidies. The subsidies factors were only analyzed on whether a subsidy was received
@@ -54,10 +55,12 @@ variables. Transportation modes were also considered in the analysis where mode 
 categories were used. Either the dummy variable or the percentage variable was used in the regression
 analysis to avoid parallel information as captured by the variables which would over/under-estimate the
 correlation of certain variables in the regression analysis. <br>
+
 Among all the survey data, refusalto answer and unknown answers were excluded from the
 study data. This is because such categories usually marked with numbers that are much larger than
 values in other categories. By excluding these large values, the logit regression analysis would better
 reflect the real trend among factors analyzed. <br>
+
 In the regression analysis, factors were pulled in logit models in groups, such as demographics,
 race, and household locations. In the end, factors of all aspects were injected into a giant model to
 reflect a comprehensive analysis. <br>
@@ -68,6 +71,7 @@ Nine logit regression analysis have been conducted in the study, as shown in Tab
 findings will be based on the most complete model that is model 9, because by including more variables,
 the omitted variable bias in the model would be minimized. Each of the interpretation assume other
 factors are held constantly and would not interchangeably affect the models. <br>
+
 To reflect on demographic features, males and females have shown significant difference in car
 ownership – males on average have a oddsratio of 4.7 times to own multiple cars than females do. In
 terms of household income, with the increase of one income bracket, the car ownership would increase
@@ -76,18 +80,21 @@ odds ratio of around 2%, holding other factors constant. It meansmales, higher i
 younger generations tend to have larger chancesto ownmultiple cars. The statistics revealsthat certain
 levels of inequality exist among economic advantaged and disadvantaged groups, different generations,
 as well as males and femalesin terms of the choices of owning multiple cars. <br>
+
 Model 3 as compared to model 9, better reveals the correlation of factors to multiple car
 ownership among racial groups. Holding other factors constant, white population have an odds ratio of
 1.67 times (67% higher) of other racial groups to have multiple car ownership; black population,
 however, have an odds ratio of 0.47 (53% lower) of other racial groups to have multiple car ownership –
 both are statistically significant. It seems that white population have large chancesto own multiple cars,
 while black population have much lower chance of multiple car ownership. <br>
+
 To interpret parking and transit subsidies and its correlation to multiple car ownership using
 model 9, parking subsidies generate an odds ratio of 1.08 (8% higher) times of owning multiple cars as
 compared to not providing parking subsidies. Transit subsidies, however, generate an odds ratio of 0.76
 (33% lower) times of owning multiple cars as compared to not providing transit parking subsidies –
 holding other factors constant. This reveals transit subsidies might provide incentives to reduce number
 of car ownership (or verse versa). <br>
+
 Statistics further reveals locational differencesin multiple car ownership. In particular, people
 living in Philadelphia, Delaware and Burlington counties show a lower chance of having multiple cars.
 For example, in Philadelphia, households on average have an odds ratio of 0.09 (91% lower) times of
