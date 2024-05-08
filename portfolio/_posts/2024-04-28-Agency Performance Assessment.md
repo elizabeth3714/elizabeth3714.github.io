@@ -11,9 +11,11 @@ people management, and indicates public accountability. (Behn, 2003) This paper 
 FY2022 performance report of the Department of Housing and Urban Development (HUD) as an
 example of agency performance assessment, focusing on the alignment, effectiveness, and
 significance of the performance indicators as around the strategical goals. <br>
+
 Two strategic goals will be covered with in-depth assessment: <br>
 **• Strategic Goal #2:** Ensure Access to and Increase the Production of Affordable Housing <br>
 **• Strategic Goal #4:** Advance Sustainable Communities <br>
+
 **1. Strategic Goal #2** <br>
 Strategic Goal #2 has two objectives about housing supply and rental assistance. These two
 objectives directly address the strategic goal. <br>
