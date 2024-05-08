@@ -343,16 +343,50 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Naïve Bayes <br>
 
+![Naive Bayes](../image/SI618obesity/NB.png)
+
+* Accuracy: The overall accuracy of the model is approximately 78.51%. This indicates that about 78.51% of all predictions made by the model are correct, reflecting the proportion of total true positive and true negative predictions out of all predictions made. <br>
+* Classification Report: While the model is reasonably accurate overall, the differences in performance metrics for the two classes suggest that further optimization may be possible, especially in improving recall for the class "High." <br>
+
+#### Logistic Regression <br>
+
+![Naive Bayes](../image/SI618obesity/LR.png)
+
+* Preprocessing: Model #3 processes the independent variables using a standard scaler, which achieves higher accuracy. <br>
+* Accuracy: The model achieves an overall accuracy score of 88.33%, indicating that about 88.33% of all predictions are correct. <br>
+* Misclassification Rate: The model's misclassification rate is 11% for the training data and 13.43% for the testing data. <br>
+
+#### Random Forest <br>
+
+![Naive Bayes](../image/SI618obesity/RF.png)
+
+* Preprocessing: The model uses a standard scaler and dimension reduction to process independent variables. The accuracy is the highest when the number of components is 20. This is the best model for the Random Forest method. <br>
+* Accuracy: The model achieves an overall accuracy score of 88.23%, indicating the proportion of all predictions being correct. <br>
+* Misclassification Rate: The model has a misclassification rate of 1.78% for the training data and 19.29% for the testing data. <br>
+
+#### Support Vector Machine <br>
+
+![Naive Bayes](../image/SI618obesity/SVM.png)
+
+* In assessing the effectiveness of the SVM models, both the radial basis function (rbf) and the polynomial (poly) kernel were employed. When Obesity is considered as a binary variable into Low and High categories, the polynomial kernel SVM demonstrated superior accuracy, registering at 0.88. However, when the obesity rate was expanded into three categories—Low,Medium, and High —the distinction in performance between the rbf and poly kernels was marginal, with scores of 0.92 and 0.91, respectively. <br>
+* In a comparative analysis with other machine learning models, including Bayes, logistic regression, and random forest, the SVM models outperformed their counterparts, achieving the highest accuracy metrics. <br>
 
 ![Comparison of Machine Learning Models](../image/SI618obesity/comparison_ml_models.png)
 
 ![ROC Curve](../image/SI618obesity/ROC_curve.png)
 
+The graph above represents the Receiver Operating Characteristic (ROC) curves for four machine learning models: Naïve Bayes, Logistic Regression, Random Forest, and Support Vector Machine (SVM). The ROC curve plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various threshold settings, and the Area Under the Curve (AUC) provides a single-value summary of the ROC curve's performance. <br>
+**Naïve Bayes (AUC = 0.88):** The blue curve represents the Naive Bayes classifier. An AUC of 0.88 indicates good predictive performance, but there is room for improvement compared to the other models. The curve is closer to the top-left corner than a random guess (the diagonal line) but not as close as the other models. <br>
+**Logistic Regression (AUC = 0.92):** The orange curve shows the Logistic Regression model. An AUC of 0.92 is indicative of excellent performance, with the model offering a strong separation between the positive and negative classes. <br>
+**Random Forest (AUC = 0.95):** The green curve describes the Random Forest classifier. The AUC of 0.95 is the highest among the four models, suggesting that Random Forest has the best overall performance in terms of distinguishing between the classes. <br>
+**SVM (AUC = 0.93):** The red curve represents the Support Vector Machine model with an AUC of 0.93, which is very close to the performance of Logistic Regression and signifies a high predictive ability. <br>
+General Observations: <br>
+The Random Forest model exhibits the highest predictive ability among the evaluated models, closely followed by SVM and Logistic Regression. <br>
+Naïve Bayes, while still performing well, has the lowest AUC score of the models presented, indicating it has a slightly lower ability to differentiate between the classes than the other models. <br>
+All models show strong predictive power, with Random Forest leading slightly. Such ROC curves help visualize and compare the trade-offs between true positive rates and false positive rates across different models, thus guiding the selection of the most appropriate model for a given task. <br>
 
+#### Finding: ROC-AUC vs Accuracy: Which Metric Is More Important? <br>
 
-
-
-
-
-
-
+Upon evaluating the machine learning models, it emerged that the performance outcomes differed notably when measured by ROC-AUC and Accuracy metrics. While the naïve Bayes, logistic regression, random forest, and SVM models generally delivered robust results—scoring near or beyond the 0.9 mark for both AUC and accuracy—the **random forest model** excelled in ROC-AUC with a score of **0.95**. Conversely, the **SVM model** achieved the highest accuracy at **0.93**. <br>
+When it comes to the question of which metric is more compelling, the answer hinges on the data distribution. Accuracy tends to be a suitable metric for uniformly distributed data. However, ROC AUC assumes greater importance with imbalanced datasets, considering the balance between precision and recall, while accuracy might be misleading if the data distribution is skewed. <br>
+Typically, ROC AUC is reserved for binary variable assessments. In this study, the obesity rate demonstrated a more balanced distribution as a binary variable (`Low`: 1380, `High`: 1350) compared to its distribution as a categorical variable (`Medium`: 1569, `Low`: 911, `High`: 250). Hence, we contend that the ROC AUC metric offers a more accurate reflection of a model’s efficacy for this dataset, with the random forest model emerging as the top performer amongst the four contenders. <br>
