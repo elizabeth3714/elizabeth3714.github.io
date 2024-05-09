@@ -4,10 +4,6 @@ title: Strategies in Increasing Philadelphia’s Cycling Trips to 15% of All Tri
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
-<div class="message">
-  This is the term paper of CPLN550 Introduction to Transportation Planning at the 
-  University of Pennsylvania. The memo was completed on an individual basis.
-</div>
 
 **Summary** <br>
 Unlike many European countries where biking as a commuting mode comes from the
@@ -102,3 +98,8 @@ Complete Streets Design Handbook (2020). <br>
 DVRPC (2011). “Pedestrian and Bicycle Friendly Policies, Practices, and Ordinances”.Dvrpc.org. <br>
 Bicycle Coalition (2020). “Unique Funding Opportunity for Bicycle Pedestrian and Trail Projects in PA”.
 https://bicyclecoalition.org/unique-funding-opportunity-for-bicycle-pedestrian-and-trail-projects-in-pa/ <br>
+<br>
+<div class="message">
+  This is the term paper of CPLN550 Introduction to Transportation Planning at the 
+  University of Pennsylvania. The memo was completed on an individual basis.
+</div>
