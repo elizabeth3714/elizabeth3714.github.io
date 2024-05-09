@@ -9,7 +9,7 @@ title: From Le Corbusier to the Mesh Matrices
   Read ten thousand books and travel ten thousand miles. – Qichang Dong, Chinese Scholar in the 1600s
 </p>
 
-### Elizabeth Wang, AICP <br>
+#### Elizabeth Wang, AICP <br>
 
 #### Education <br>
 Master of Public Policy, University of Michgian, 2018-19, Expected Dec 2024 <br>
