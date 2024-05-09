@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Strategies in Increasing Philadelphia’s Cycling Trips to 15% of All Trips by 2030
+tags: ["WritingSample", "UrbanPlanning", "Transportation"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
