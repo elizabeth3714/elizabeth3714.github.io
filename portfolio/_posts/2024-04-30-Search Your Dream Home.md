@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Search Your Dream Home
+tags: ["Python", "Programming"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
