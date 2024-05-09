@@ -101,7 +101,7 @@ Philly a biking friendly city. <br>
 
 **References** <br>
 Complete Streets Design Handbook (2020). <br>
-DVRPC (2011). “Pedestrian and Bicycle Friendly Policies, Practices, and Ordinances”.Dvrpc.org. <br>
+DVRPC (2011). “Pedestrian and Bicycle Friendly Policies, Practices, and Ordinances”.DVRPC.org. <br>
 Bicycle Coalition (2020). “Unique Funding Opportunity for Bicycle Pedestrian and Trail Projects in PA”.
 https://bicyclecoalition.org/unique-funding-opportunity-for-bicycle-pedestrian-and-trail-projects-in-pa/ <br>
 <br>
