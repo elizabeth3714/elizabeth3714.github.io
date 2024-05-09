@@ -68,5 +68,40 @@ and Burlington County. **(Figures 4 to 6)** <br>
 
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/6.png" alt="Fig4-6"/> <br>
 
+Road network is another critical development engine to consider. In view of the high level of
+auto-dependency and consequently highway-oriented development patterns, our assumption is that
+development demand is likely to occur near highways to access better connection to destinations. 
+**(Figure 7)** <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/7.png" alt="Fig7"/> <br>
+
+
+<ins>3.2 Methods</ins> <br>
+
+To achieve a level of accuracy, the study divided the roughly 8 thousand square-kilometers land
+into over 12 million grids and used the roughly one-acre grids as units of analysis. By joining spatial data
+including land cover change, population distribution and distance to highway to the grids of both 2000
+and 2010, we used logit regression analysis to study the development patterns <1>. Based on the hypothesis
+that future development demand shares continuity of current development, the patterns learned from the
+previous decade would serve as the model of development demands in the upcoming decades. Both
+demand- and supply-side development demand are projected based on future population projection and a
+proposed highway respectively. <br>
+
+#### 4. Machine Learning of Development Patterns <br>
+
+<ins>4.1 Exploratory Analysis</ins> <br>
+
+The spatial lag (i.e. the calculation of spatial weighted average) to 2001 development illustrates
+development probabilities. Higher chance of development occurs in the periphery of the region and close
+to certain sections of the highway networks. **(Figures 8 and 9)** Land cover change also indicated positive
+correlation with population change from 2000 to 2001. **(Figure 10)** Among different types of land cover,
+farmland has the highest conversion rate, follow by developed land and forests, at 1.16%, 1.07%, and
+0.67% respectively. **(Figure 11)** <br>
+
+
+
+**Footnotes:** <br>
+<1> Spatial lag of development will be used to identify current developed locations from 2000 to 2010 and logit
+regression will be used to predict future developments. <br>
 
 
