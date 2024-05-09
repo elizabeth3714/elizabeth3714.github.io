@@ -40,7 +40,7 @@ generalizability of the model. <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_prediction_actual.png" alt="prediction_actual"/> <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_calgary_denver.png" alt="calgary_denver"/> <br>
 
-![SI507 repository](https://github.com/elizabeth3714/CPLN675) <br>
+![CPLN675 repository](https://github.com/elizabeth3714/CPLN675) <br>
 
 <br>
 <br>
