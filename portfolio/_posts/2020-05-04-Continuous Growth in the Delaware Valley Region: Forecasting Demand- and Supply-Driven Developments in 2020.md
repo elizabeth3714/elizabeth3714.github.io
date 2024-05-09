@@ -188,7 +188,6 @@ population forecast. The projected population in 2040 are 691111, 918918, 645562
 ![R file](https://github.com/elizabeth3714/CPLN675) <br>
 
 <br>
-<br>
 ### Reference <br>
 
 DVRPC (2016). “County and Municipal-Level Population Forecasts, 2015-2045”, website. Retrieved,
