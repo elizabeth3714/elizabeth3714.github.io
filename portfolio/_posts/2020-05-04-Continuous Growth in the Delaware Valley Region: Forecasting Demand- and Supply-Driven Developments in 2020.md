@@ -187,9 +187,16 @@ population forecast. The projected population in 2040 are 691111, 918918, 645562
 
 ![R file](https://github.com/elizabeth3714/CPLN675) <br>
 
-<br>
 ### Reference <br>
 
 DVRPC (2016). “County and Municipal-Level Population Forecasts, 2015-2045”, website. Retrieved,
 5/13/2020. <br>
 DVRPC (2017). “Connections 2045 Plan for Greater Philadelphia”, website. Retrieved, 5/13/2020. <br>
+
+<br>
+<br>
+<div class="message">
+  This is the term project of CPLN675 Environmental Modelling at the University of Pennsylvania. The project
+  was co-authorized by Leila Bahrami and Elizabeth Wang. <br>
+</div>
+
