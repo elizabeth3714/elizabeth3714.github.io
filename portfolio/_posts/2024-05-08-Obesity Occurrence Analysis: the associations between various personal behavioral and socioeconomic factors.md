@@ -103,11 +103,11 @@ The columns are a mix of data types: the `NAME`, `state`, `county`, and `tract` 
 
 #### Histogram of Health Outcome <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/1.png" alt="Histograms of Health-related Columns"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/1.png" alt="Histograms of Health-related Columns"/> <br>
 
 #### Visualizaiton of Population by Race in Percentage <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/2.png" alt="Race Percentage"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/2.png" alt="Race Percentage"/> <br>
 
 This diagram shows the racial composition across 50 randomly selected census tracts, with each racial group represented by a unique color. The population percentages are scaled to a total of 100% for comparative purposes. It should be noted that the Hispanic population overlaps with other racial categories; therefore, when all groups are combined, the total percentage exceeds 100%. This overlap allows for a detailed examination of the distribution and concentration of the Hispanic population alongside other groups. For clarity, the representation of the Hispanic population extends beyond the 100% mark to highlight its integration with other racial demographics. <br>
 
@@ -119,7 +119,7 @@ Observations include: <br>
 
 #### Visualization of Median Household Income by County <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/3.png" alt="Median Household Income by County"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/3.png" alt="Median Household Income by County"/> <br>
 
 In order to observe the distribution of median household income, the data has been further aggregated by county. Ten county were randomly selected in this process. The violin charts depict the distribution of median household income in the 10 counties respectively. Each diagram demonstrates the median household income distribution from the census tracts of each county. For example, Lenawee county is relatively wealthier, the median value of median household income is above 50,000. Berrien county has smaller gap among wealthier and less wealthy households. Genesee county's median value of median household income is around 30,000, lower than other counties. <br>
 
@@ -129,7 +129,7 @@ In order to observe the distribution of median household income, the data has be
 
 Due to the large number of variables, we break this visualization into two steps. In the firs step, we would like to focus on the correlation of all health outcome (from the primary dataset - CDC PLACE). Then the merged dataset is uesd to visualize correlation among all health related along with socio-economic fators. <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/4.png" alt="Correlation Matrix 1"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/4.png" alt="Correlation Matrix 1"/> <br>
 
 The heatmap uses a red-blue color scheme (`coolwarm`). Blue represents a a positive correlation, red represents a negative correlation, and the intensity of the color indicates the strength of the correlation. <br>
 
@@ -146,8 +146,8 @@ The heatmap uses a red-blue color scheme (`coolwarm`). Blue represents a a posit
 5. **Obesity and Fair or Poor Health:** A positive correlation between obesity and fair or poor health suggests that  higher levels of obesity within the dataset could be associated with a higher probability of having fair or poor health status. <br>
 6. **Obesity and Binge Drinking:** The blue coloring suggests a negative correlation between obesity and binge drinking. This means that as binge drinking increases, obesity levels tend to decrease, and vice versa. <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/5.png" alt="Correlation Matrix 2"/>
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/6.png" alt="Correlation Matrix bar"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/5.png" alt="Correlation Matrix 2"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/6.png" alt="Correlation Matrix bar"/> <br>
 
 Beside correlation among health conditions, we would like to further understand the correlation among health and socio-economic factors. This heatmap demonstrates correlation among such variables using green for positive correlation and pink for negative one. <br>
 
@@ -164,7 +164,7 @@ Beside correlation among health conditions, we would like to further understand 
 
 #### Pairplot by Dominant Race Group <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/7.png" alt="Pair Plot"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/7.png" alt="Pair Plot"/> <br>
 
 To add a dimention to the pairplot, the original numeric data for racial groups have been converted to categorical data. The method is to pick the dominant group in population and create a new column with the race as the value. This is a relatively simple and brutal approach for the purpose of data visualization. <br>
 
@@ -174,7 +174,7 @@ Pairplots of selected variables are depicted in the chart above. We would like t
 
 ### Comparative Analysis <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/8.png" alt="Comparison1"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/8.png" alt="Comparison1"/> <br>
 
 The scatterplots represent the relationships between the obesity rate and the percentages of various racial demographics within the dataset. Each plot corresponds to a different racial demographics, and the correlation coefficient (rr
 r) for each relationship is provided in the title of the respective plots. <br>
@@ -191,13 +191,13 @@ By merging these two datasets, we can more accurately assess the correlation bet
 
 #### Assessing the Relationship Between Household Income and Obesity Rates <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/9.png" alt="Comparison2"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/9.png" alt="Comparison2"/> <br>
 
 The median household income in counties with higher obesity rates tends to be lower than that in those with lower obesity rates. For instance, Genesee County, with one of the highest obesity rates, has a median household income of approximately $43,432. In contrast, Livingston County, which falls into the lower obesity rate category, shows a substantially higher median household income of approximately $74,590. <br>
 
 This pattern suggests an inverse relationship between median household income and obesity rates, where counties with lower median household incomes tend to have higher obesity rates. Conversely, counties with higher median incomes, such as Livingston and Oakland, display lower obesity rates. This trend aligns with the narrative that socio-economic factors, including income, play a crucial role in the health outcomes of a population. Higher incomes may correlate with better access to healthy food options, recreational activities, and healthcare services, which can contribute to lower obesity rates.<br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/10.png" alt="Comparison3"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/10.png" alt="Comparison3"/> <br>
 
 In the high-obesity counties—Genesee, Monroe, Muskegon, Saginaw, and Tuscola—the poverty rates are notably higher on average than in the counties with lower obesity rates. Genesee and Saginaw Counties have poverty rates exceeding 20%, while Monroe County presents a lower rate of approximately 9.7%, still within the high-obesity group. This pattern suggests a correlation where higher obesity rates coincide with higher poverty rates. <br>
 
@@ -205,7 +205,7 @@ Turning to the counties with lower obesity rates—Grand Traverse, Kent, Livings
 
 #### Examining the Correlation Between Chronic Diseases, Lifestyle Factors, and Obesity Rates <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/11.png" alt="Comparison4"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/11.png" alt="Comparison4"/> <br>
 
 We selected these chronic disease and lifestyle factors as variables because they have shown strong positive or negative correlations with obesity in previous analyses. To more effectively communicate these relationships, we have drawn scatter plots and included correlation coefficients, facilitating a rapid assessment of the associations. <br>
 
@@ -220,7 +220,7 @@ We selected these chronic disease and lifestyle factors as variables because the
 - Confidence Interval: We chose a 99% confidence interval. <br>
 - We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and indicators of personal lifestyle habits through multiple linear regression modeling. <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model1.png" alt="Model1"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model1.png" alt="Model1"/> <br>
 
 So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times \text{PhysicalActivity} + 0.2330 \times \text{SleepLess7Hrs} + 
 2.7568 \times \text{Diabetes} - 4.7811 \times \text{Stroke} - 1.0357 \times \text{FairPoorHealth} + 0.6658 \times \text{BingeDrinking} + \varepsilon$ <br>
@@ -242,7 +242,7 @@ So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times 
 - $H_A$: At least one race has a different mean obesity rate than the other races. <br>
 - Significance Level: 0.05 <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model2.png" alt="Model2"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model2.png" alt="Model2"/> <br>
 
 **Interpretation** <br>
 - The value of F-statistic is large while the p-value is 0.0<0.05. we have enough evidence to reject the null hypothesis, i.e., to support the alternative hypothesis that there is a significant difference in the mean value of obesity rates among the races. <br>
@@ -258,7 +258,7 @@ So the funcution can be expressed as: $\text{Obesity} = -4.3476 + 1.0794 \times 
 - Confidence interval: we chose a 95% confidence interval. <br>
 - We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and Races through multiple linear regression modeling. <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model3.png" alt="Model3"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model3.png" alt="Model3"/> <br>
 
 So the function can be expressed as:<br>
 $Obesity = 37.3338 - 0.0001 \times MedianHHIncome + 0.0009 \times Bachelors Below + 18.1603 \times PovertyRate + \varepsilon$<br>
@@ -282,7 +282,7 @@ $Obesity = 37.3338 - 0.0001 \times MedianHHIncome + 0.0009 \times Bachelors Belo
 - Confidence Interval: We chose a 99% confidence interval. <br>
 - We chose the variables in this way because we attempted to illustrate the linear relationship between obesity and indicators of Individual lifestyle habit and socio-econmic through multiple linear regression modeling. <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model4.png" alt="Model4"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/model4.png" alt="Model4"/> <br>
 
 The regression function can be expressed as: <br>
 $Obesity = 0.7823 + 0.8982 \times PhysicalActivity + 0.2676 \times SleepLess7Hrs + 2.7900 \times Diabetes - 5.1028 \times Stroke - 0.9069 \times FairPoorHealth + 0.5433 \times BingeDrinking - 0.000044 \times MedianHHIncome + 0.0004 \times BachelorBelow - 2.5195 \times PovertyRate + \varepsilon$ <br>
@@ -342,14 +342,14 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Naïve Bayes <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/NB.png" alt="NB"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/NB.png" alt="NB"/> <br>
 
 * Accuracy: The overall accuracy of the model is approximately 78.51%. This indicates that about 78.51% of all predictions made by the model are correct, reflecting the proportion of total true positive and true negative predictions out of all predictions made. <br>
 * Classification Report: While the model is reasonably accurate overall, the differences in performance metrics for the two classes suggest that further optimization may be possible, especially in improving recall for the class "High." <br>
 
 #### Logistic Regression <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/LR.png" alt="LR"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/LR.png" alt="LR"/> <br>
 
 * Preprocessing: Model #3 processes the independent variables using a standard scaler, which achieves higher accuracy. <br>
 * Accuracy: The model achieves an overall accuracy score of 88.33%, indicating that about 88.33% of all predictions are correct. <br>
@@ -357,7 +357,7 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Random Forest <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/RF.png" alt="RF"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/RF.png" alt="RF"/> <br>
 
 * Preprocessing: The model uses a standard scaler and dimension reduction to process independent variables. The accuracy is the highest when the number of components is 20. This is the best model for the Random Forest method. <br>
 * Accuracy: The model achieves an overall accuracy score of 88.23%, indicating the proportion of all predictions being correct. <br>
@@ -365,14 +365,14 @@ In this session, we will delve into various machine learning models to maximize 
 
 #### Support Vector Machine <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/SVM.png" alt="SVM"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/SVM.png" alt="SVM"/> <br>
 
 * In assessing the effectiveness of the SVM models, both the radial basis function (rbf) and the polynomial (poly) kernel were employed. When Obesity is considered as a binary variable into Low and High categories, the polynomial kernel SVM demonstrated superior accuracy, registering at 0.88. However, when the obesity rate was expanded into three categories—Low,Medium, and High —the distinction in performance between the rbf and poly kernels was marginal, with scores of 0.92 and 0.91, respectively. <br>
 * In a comparative analysis with other machine learning models, including Bayes, logistic regression, and random forest, the SVM models outperformed their counterparts, achieving the highest accuracy metrics. <br>
 
-<br><img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/comparison_ml_models.png" alt="Comparison of Machine Learning Models" />
+<br><img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/comparison_ml_models.png" alt="Comparison of Machine Learning Models" /> <br>
 
-<br><img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/ROC_curve.png" alt="ROC_curve" />
+<br><img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/ROC_curve.png" alt="ROC_curve" /> <br>
 
 The graph above represents the Receiver Operating Characteristic (ROC) curves for four machine learning models: Naïve Bayes, Logistic Regression, Random Forest, and Support Vector Machine (SVM). The ROC curve plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various threshold settings, and the Area Under the Curve (AUC) provides a single-value summary of the ROC curve's performance. <br>
 
