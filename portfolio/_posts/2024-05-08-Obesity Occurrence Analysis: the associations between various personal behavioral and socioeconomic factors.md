@@ -103,11 +103,11 @@ The columns are a mix of data types: the `NAME`, `state`, `county`, and `tract` 
 
 #### Histogram of Health Outcome <br>
 
-![Histograms of Health-related Columns](../image/SI618obesity/1.png?raw=true)
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/1.png" alt="Histograms of Health-related Columns"/>
 
 #### Visualizaiton of Population by Race in Percentage <br>
 
-![Race Percentage](../image/SI618obesity/2.png?raw=true)
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/2.png" alt="Race Percentage"/>
 
 This diagram shows the racial composition across 50 randomly selected census tracts, with each racial group represented by a unique color. The population percentages are scaled to a total of 100% for comparative purposes. It should be noted that the Hispanic population overlaps with other racial categories; therefore, when all groups are combined, the total percentage exceeds 100%. This overlap allows for a detailed examination of the distribution and concentration of the Hispanic population alongside other groups. For clarity, the representation of the Hispanic population extends beyond the 100% mark to highlight its integration with other racial demographics. <br>
 
@@ -119,7 +119,7 @@ Observations include: <br>
 
 #### Visualization of Median Household Income by County <br>
 
-![Median Household Income by County](../image/SI618obesity/3.png?raw=true)
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/3.png" alt="Median Household Income by County"/>
 
 In order to observe the distribution of median household income, the data has been further aggregated by county. Ten county were randomly selected in this process. The violin charts depict the distribution of median household income in the 10 counties respectively. Each diagram demonstrates the median household income distribution from the census tracts of each county. For example, Lenawee county is relatively wealthier, the median value of median household income is above 50,000. Berrien county has smaller gap among wealthier and less wealthy households. Genesee county's median value of median household income is around 30,000, lower than other counties. <br>
 
@@ -129,7 +129,7 @@ In order to observe the distribution of median household income, the data has be
 
 Due to the large number of variables, we break this visualization into two steps. In the firs step, we would like to focus on the correlation of all health outcome (from the primary dataset - CDC PLACE). Then the merged dataset is uesd to visualize correlation among all health related along with socio-economic fators. <br>
 
-![Correlation Matrix 1](../image/SI618obesity/4.png?raw=true)
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/4.png" alt="Correlation Matrix 1"/>
 
 The heatmap uses a red-blue color scheme (`coolwarm`). Blue represents a a positive correlation, red represents a negative correlation, and the intensity of the color indicates the strength of the correlation. <br>
 
@@ -146,8 +146,8 @@ The heatmap uses a red-blue color scheme (`coolwarm`). Blue represents a a posit
 5. **Obesity and Fair or Poor Health:** A positive correlation between obesity and fair or poor health suggests that  higher levels of obesity within the dataset could be associated with a higher probability of having fair or poor health status. <br>
 6. **Obesity and Binge Drinking:** The blue coloring suggests a negative correlation between obesity and binge drinking. This means that as binge drinking increases, obesity levels tend to decrease, and vice versa. <br>
 
-![Correlation Matrix 2](../image/SI618obesity/5.png?raw=true)
-![Correlation Matrix bar](../image/SI618obesity/6.png?raw=true)
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/5.png" alt="Correlation Matrix 2"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/6.png" alt="Correlation Matrix bar"/>
 
 Beside correlation among health conditions, we would like to further understand the correlation among health and socio-economic factors. This heatmap demonstrates correlation among such variables using green for positive correlation and pink for negative one. <br>
 
