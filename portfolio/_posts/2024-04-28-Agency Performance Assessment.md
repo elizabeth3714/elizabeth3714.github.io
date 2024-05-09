@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Agency Performance Assessment <br>-- using HUD FY2022 Performance Report as an Example
+tags: ["WritingSample", "PublicPolicy"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
