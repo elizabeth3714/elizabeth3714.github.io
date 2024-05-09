@@ -1,7 +1,7 @@
 ---
 layout: tag
 title: "Tag: Python"
-permalink: /p/python
+permalink: /t/python
 ---
 
 <ul class="post-list">
