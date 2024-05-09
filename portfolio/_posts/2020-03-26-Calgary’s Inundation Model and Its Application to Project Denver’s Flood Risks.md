@@ -18,11 +18,8 @@ assist policy makers in the environment and infrastructure section to formulate 
 strategies; and to protect assets and finance of local residents. <br>
 
 ### Methodology & Algorithm <br>
-Determining a city for comparison(Denver); Collecting
-data; Feature engineering on selected features; Put the features into fishnet and then run first
-Forward and Backward Selection for non-multicollinear criteria; Logistic regression for these
-significant factors in R; apply model to Denver; Validate the model to determine accuracy and
-generalizability of the model.<br>
+
+The data analysis exercise will take the following steps:<br>
 
 * 1. Determining a city for comparison: Denver<br>
 * 2. Collecting data for Calgary and Denver<br>
@@ -39,6 +36,7 @@ generalizability of the model.<br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p1.png" alt="p1"/> <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p2.png" alt="p2"/> <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p3.png" alt="p3"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p4.png" alt="p4"/> <br>
 
 ### Confusion Matrix and ROC Curve <br>
 
