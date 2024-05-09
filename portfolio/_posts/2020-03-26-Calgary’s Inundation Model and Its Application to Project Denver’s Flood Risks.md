@@ -24,7 +24,7 @@ Forward and Backward Selection for non-multicollinear criteria; Logistic regress
 significant factors in R; apply model to Denver; Validate the model to determine accuracy and
 generalizability of the model.<br>
 
-*1.Determining a city for comparison: Denver<br>
+* 1.Determining a city for comparison: Denver<br>
 *2.Collecting data for Calgary and Denver<br>
 *3.Feature engineering<br>
 *4.Create fishnet<br>
