@@ -1,11 +1,11 @@
 ---
 layout: tag
-title: "Tag: Travel"
-permalink: /t/travel
+title: "Tag: UrbanPlanning"
+permalink: /t/urbanplanning
 ---
 
 <ul class="post-list">
-  {%- for post in site.tags["travel"] -%}
+  {%- for post in site.tags["UrbanPlanning"] -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">
