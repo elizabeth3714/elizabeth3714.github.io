@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+tags: ["DataVisualization", "EDA", "GIS", "MachineLearning", "PolicyAnalytics", "Programming", "PublicPolicy", "Python", "R", "SpatialAnalytics", "Transportation", "UrbanPlanning", "WritingSample"]
 ---
 <div class="page">
   
@@ -39,4 +40,11 @@ title: Home
       {% include tag_cloud.html %}
     </div>
   
+  <div class="row">
+    <div class="col-12">
+      Tags:
+      {% for tag in page.tags %}
+        <a href="/t/{{ tag | downcase | replace: ' ', '-' }}" class="post">#{{ tag }}</a>
+      {% endfor %}
+  </div>
 </div>
