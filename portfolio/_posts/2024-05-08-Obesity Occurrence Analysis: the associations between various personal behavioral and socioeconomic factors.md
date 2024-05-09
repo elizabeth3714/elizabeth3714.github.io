@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Obesity Occurrence Analysis <br>-- the Associations between Various Personal Behavioral and Socioeconomic Factors
-tags: ["Python", "DataVisualization", "EDA", "MachineLearning"]
+tags: ["Python", "DataVisualization", "EDA", "MachineLearning", "PolicyAnalytics"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
