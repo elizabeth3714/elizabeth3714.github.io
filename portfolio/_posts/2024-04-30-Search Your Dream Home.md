@@ -9,7 +9,7 @@ Click for Video Presentation: <br>
 
 ### Overview <br>
 
-This term project resembles the home searching engines that users can input prference criteria
+This term project resembles the home searching engines that users can input preference criteria
 and search for the dream homes. The algorithm would direct users to the best recommendation according
 to the input home features. <br><!--more-->
 
