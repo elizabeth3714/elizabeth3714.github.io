@@ -4,10 +4,6 @@ title: Proposing a Transit-oriented Development Plan for the City of Philadelphi
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
-<div class="message">
-  This is the term paper of CPLN550 Introduction to Transportation Planning at the 
-  University of Pennsylvania. The memo was completed on an individual basis.
-</div>
 
 **To:** Darrell L. Clarke, District 5 Council President <br>
 **From:** Elizabeth Wang, Planning Consultant, Penn City Institute <br>
@@ -112,3 +108,8 @@ from disasters. <br>
 Cervero, R. (2001). Informal Transit: Learning from the Developing World. Access, 18, 12–16. <br>
 Vuchic, V. (1999). Transportation for livable cities. New Brunswick, N.J.: Center for Urban Policy
 Research (Chapters 2 and 7). <br>
+<br>
+<div class="message">
+  This is the term paper of CPLN550 Introduction to Transportation Planning at the 
+  University of Pennsylvania. The memo was completed on an individual basis.
+</div>
