@@ -6,7 +6,7 @@ truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/EdBacon/EdBacon_Screen.png" alt="EdBacon_Screen"/> <br>
-
+<!--more-->
 <br>
 <br>
 
