@@ -98,10 +98,97 @@ correlation with population change from 2000 to 2001. **(Figure 10)** Among diff
 farmland has the highest conversion rate, follow by developed land and forests, at 1.16%, 1.07%, and
 0.67% respectively. **(Figure 11)** <br>
 
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/8.png" alt="Fig8"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/10.png" alt="Fig10"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/11.png" alt="Fig11"/> <br>
 
+<ins>4.2 2010 Prediction and evaluation</ins> <br>
+
+2010 prediction was based on analysis of six logit regression models. **(Figure 12)** As observed,
+most developments have been predicted with probabilities of lower than 20%. **(Figure 13)** The model
+failed to provide robust results. For example, 5% threshold correctly predicts a lower number of new
+development areas (Sensitivity) whereas incorrectly predicts a higher number of not changed areas
+(Specificity). **(Figure 14 to 16)** Similarly, all counties demonstrate higher numbers of incorrect
+predictions of not changed areas. **(Figure 17)** Thus this model is not representative enough (low
+generalizability) in 2010 development prediction. <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/12.png" alt="Fig12"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/13.png" alt="Fig13"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/14.png" alt="Fig14"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/15.png" alt="Fig15"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/16.png" alt="Fig16"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/17.png" alt="Fig17"/> <br>
+
+### 5. Predicted Demand of Development <br>
+
+According to DVRPC (2016), population will continue increasing in the coming ten to thirty
+years.<2> Chester County and Gloucester County will witness close to one-third of population growth – the
+largest increase in density in the region. <br>
+
+Similar trends of population change per county are demonstrated by the model. **(Figure 18)**
+Based on the population projection in 2020, it is observed that development demand concentrates in
+Chester and Gloucester Counties and the northern periphery of Bucks, Montgomery, Burlington and
+Mercer Counties. **(Figure 19)** <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/18.png" alt="Fig18"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/19.png" alt="Fig19"/> <br>
+
+<ins>5.2 Supply-driven Development</ins> <br>
+
+Both Bucks County and Burlington County are projected among the lowest population growth
+based on the current topography. However, both counties demonstrate potential connectors to edge cities
+of the Greater Philadelphia Region – in particular, north Bucks County is projected to hold roughly 30%
+to 50% increase of employment. (DVRPC, 2017) To leverage growth, a new highway is proposed
+crossing North Philly, reaching the north crossing the boundary of Montgomery and Bucks County and
+Burlington County, and connecting Allentown East and Atlantic City in the north and south respectively.
+**(Figure 20)** The 2020 predicted development demands, therefore further intensify in Bucks and
+Burlington Counties where the highway is proposed. **(Figure 21)** <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/20.png" alt="Fig20"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/21.png" alt="Fig21"/> <br>
+
+<ins>5.3 Environmental Sensitivity</ins> <br>
+
+An environmental sensitivity analysis cross-examines the effects of the proposed transportation
+infrastructure. The predicted development, however, will evade forests and wetlands, as concentrated in
+southern New Jersey and other counties. **(Figure 22 and 23)** <br>
+
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/22.png" alt="Fig22"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/23.png" alt="Fig23"/> <br>
+
+#### 6. Discussions and Suggestions <br>
+
+The following figures summarize this study by showing the development potential of each
+county. Development demand implies growth opportunities including jobs, real estate investment, small
+business and retail supporting bedroom communities. On the other hand, however, the projected growth
+in density unveiled a possible pattern of urban sprawl to north Bucks County. The proposed highway
+further connects north Bucks County and South Jersey where most land is currently Conservation
+Focused Areas (CFA). The environmental sensitivity analysis further revealed vulnerable preserved land
+that may be invaded under urban sprawl. While the consequent highway-oriented development is
+inevitable, your office is suggested to observe closely residential and commercial development along the
+new highway. In particular, CFA should continue as a tool in the growth control mechanism. Your office
+should work with relevant parties to study the land value and release land for development. Legislation
+and regulations should be formulated as precaution of over-development. <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/24.png" alt="Fig24"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/25.png" alt="Fig25"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/26.png" alt="Fig26"/> <br>
+<br>
 
 **Footnotes:** <br>
 <1> Spatial lag of development will be used to identify current developed locations from 2000 to 2010 and logit
 regression will be used to predict future developments. <br>
+<2> The projected population in 2020 are 640495, 840934, 543702, 1594787, 568337, 377328 , 514006, 307766,
+459344 for Bucks County, Montgomery County, Chester County, Philadelphia County, Delaware County, Mercer 
+County, Camden County, Gloucester County, Burlington County respectively, according to DVRPC(2016)’s
+population forecast. The projected population in 2040 are 691111, 918918, 645562, 1683402, 584329, 398669,
+525101, 366383, 488026 respectively. <br>
 
+<br>
+<br>
+#### Reference <br>
 
+DVRPC (2016). “County and Municipal-Level Population Forecasts, 2015-2045”, website. Retrieved,
+5/13/2020. <br>
+DVRPC (2017). “Connections 2045 Plan for Greater Philadelphia”, website. Retrieved, 5/13/2020. <br>
