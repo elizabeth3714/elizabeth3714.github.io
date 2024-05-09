@@ -4,10 +4,7 @@ title: Using Logit Models to Analyze Multiple Car Ownership in the Philadelphia 
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
-<div class="message">
-  This is the term paper of CPLN550 Introduction to Transportation Planning at the 
-  University of Pennsylvania. The memo was completed on an individual basis.
-</div>
+
 **To:** Yassmin Gramian, Secretary of Transportation, Pennsylvania Department of Transportation <br>
 **From:** Elizabeth Wang, Planning Consultant, Penn City Institute <br>
 **Re:** Using logit models to analyze multiple car ownership in the Philadelphia Region <br>
@@ -115,3 +112,9 @@ transit systems and as a result, they would delay their desire of owning an addi
 
 R file can be downloaded:
 https://drive.google.com/file/d/1LcYOxhFhT-bViEEugedCN6MczYqBUy3G/view?usp=sharing
+<br>
+<br>
+<div class="message">
+  This is the term paper of CPLN550 Introduction to Transportation Planning at the 
+  University of Pennsylvania. The memo was completed on an individual basis.
+</div>
