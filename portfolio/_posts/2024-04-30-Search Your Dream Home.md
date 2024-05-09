@@ -21,5 +21,5 @@ to the input home features. <br><!--more-->
 
 <div class="message">
   This is the term project of SI507 Intermediate Programming at the University of Michigan. The project
-  was completed on an individual basis.. <br>
+  was completed on an individual basis. <br>
 </div>
