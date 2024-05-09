@@ -24,6 +24,12 @@ Forward and Backward Selection for non-multicollinear criteria; Logistic regress
 significant factors in R; apply model to Denver; Validate the model to determine accuracy and
 generalizability of the model.
 
+### Variables <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p1.png" alt="p1"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p2.png" alt="p2"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p3.png" alt="p3"/>
+
 ![SI507 repository](https://github.com/elizabeth3714/CPLN675) <br>
 
 <br>
