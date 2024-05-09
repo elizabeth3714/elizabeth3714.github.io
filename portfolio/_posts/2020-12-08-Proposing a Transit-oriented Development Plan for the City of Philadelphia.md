@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proposing a Transit-oriented Development Plan for the City of Philadelphia
+tags: ["WritingSample", "UrbanPlanning", "Transportation"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
