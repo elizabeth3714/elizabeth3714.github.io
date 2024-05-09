@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 Developments in 2020 <br>
 --------------------------------------------------------------------------
 
-#### 1. Executive Summary <br>
+### 1. Executive Summary <br>
 
 Comprehensive regional development rooted in multi-nodal growth engines has been the new
 norm in the context of American urban planning. Cross-boundary collaboration brings benefits towards
@@ -31,7 +31,7 @@ intensified along the proposed highway, concentrating in north Montgomery and Bu
 findings provide insights for planners to formulate better policies to manage urban sprawl, leverage smart
 growth and balance regional development. <br>
 
-#### 2. Background <br>
+### 2. Background <br>
 
 The DVR as core urban clusters of the Greater Philadelphia Region connects five adjacent states.
 While population grew from 5.1 million to 5.6 million, the developed area expanded by 1.5 times,
@@ -41,7 +41,7 @@ environmental damage if urban clusters continue sprawling at the preceding speed
 projection study of future development demand will help observe development patterns and strategically
 alleviate sprawl through formulation of policy instruments. <br>
 
-#### 3. Data and Study Methods <br>
+### 3. Data and Study Methods <br>
 
 The study adopted a quantitative approach using spatial and demographic data, along with
 regression analysis to predict future development demands. <br>
@@ -87,7 +87,7 @@ previous decade would serve as the model of development demands in the upcoming 
 demand- and supply-side development demand are projected based on future population projection and a
 proposed highway respectively. <br>
 
-#### 4. Machine Learning of Development Patterns <br>
+### 4. Machine Learning of Development Patterns <br>
 
 <ins>4.1 Exploratory Analysis</ins> <br>
 
@@ -157,7 +157,7 @@ southern New Jersey and other counties. **(Figure 22 and 23)** <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/22.png" alt="Fig22"/> <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/23.png" alt="Fig23"/> <br>
 
-#### 6. Discussions and Suggestions <br>
+### 6. Discussions and Suggestions <br>
 
 The following figures summarize this study by showing the development potential of each
 county. Development demand implies growth opportunities including jobs, real estate investment, small
@@ -185,9 +185,11 @@ County, Camden County, Gloucester County, Burlington County respectively, accord
 population forecast. The projected population in 2040 are 691111, 918918, 645562, 1683402, 584329, 398669,
 525101, 366383, 488026 respectively. <br>
 
+![R file](https://github.com/elizabeth3714/CPLN675) <br>
+
 <br>
 <br>
-#### Reference <br>
+### Reference <br>
 
 DVRPC (2016). “County and Municipal-Level Population Forecasts, 2015-2045”, website. Retrieved,
 5/13/2020. <br>
