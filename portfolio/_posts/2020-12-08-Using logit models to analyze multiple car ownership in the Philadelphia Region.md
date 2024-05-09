@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Logit Models to Analyze Multiple Car Ownership in the Philadelphia Region
-tags: ["WritingSample", "UrbanPlanning", "Transportation"]
+tags: ["WritingSample", "UrbanPlanning", "Transportation", "R"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
