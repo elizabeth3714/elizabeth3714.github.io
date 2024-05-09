@@ -5,7 +5,7 @@ permalink: /t/python
 ---
 
 <ul class="post-list">
-  {%- for post in site.tags["python"] -%}
+  {%- for post in site.tags["Python"] -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">
