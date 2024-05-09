@@ -15,20 +15,25 @@ This exercise applied geo-spatial machine learning to learn the inundation model
 ### Motivation <br>
 To adopt a scientific approach for studying and predicting natural disasters; to
 assist policy makers in the environment and infrastructure section to formulate adaptive
-strategies; and to protect assets and finance of local residents.
+strategies; and to protect assets and finance of local residents. <br>
 
 ### Methodology & Algorithm <br>
 Determining a city for comparison(Denver); Collecting
 data; Feature engineering on selected features; Put the features into fishnet and then run first
 Forward and Backward Selection for non-multicollinear criteria; Logistic regression for these
 significant factors in R; apply model to Denver; Validate the model to determine accuracy and
-generalizability of the model.
+generalizability of the model. <br>
 
 ### Variables <br>
 
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p1.png" alt="p1"/>
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p2.png" alt="p2"/>
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p3.png" alt="p3"/>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p1.png" alt="p1"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p2.png" alt="p2"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p3.png" alt="p3"/> <br>
+
+### Confusion Matrix and ROC Curve <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_confusion_matrix.png" alt="confusion_matrix"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_ROC.png" alt="ROC"/> <br>
 
 ![SI507 repository](https://github.com/elizabeth3714/CPLN675) <br>
 
