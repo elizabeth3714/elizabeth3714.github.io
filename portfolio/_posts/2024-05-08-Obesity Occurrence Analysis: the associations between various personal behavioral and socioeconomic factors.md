@@ -5,7 +5,7 @@ truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
-[![Click for Video Presentation](../image/SI618obesity/ROC.png?raw=true)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
+[![Click for Video Presentation]({{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/ROC.png" alt="ROC"/)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
 
 ### Overview <br>
 
