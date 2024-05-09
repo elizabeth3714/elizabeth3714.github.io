@@ -11,9 +11,9 @@ Click for Video Presentation: <br>
 
 This term project resembles the home searching engines that users can input prference criteria
 and search for the dream homes. The algorithm would direct users to the best recommendation according
-to the input home features. <br>
+to the input home features. <br><!--more-->
 
-![SI507 repository](https://github.com/elizabeth3714/SI507) <br><!--more-->
+![SI507 repository](https://github.com/elizabeth3714/SI507) <br>
 
 <br>
 <br>
