@@ -15,8 +15,7 @@
     <div class="container content">
       <main>
         {{ content }}
-      </main>
-
+        
         <span class="post-meta" style="padding-left: 20px;">
           {%- for tag in post.tags -%}
             <a href="/t/{{ tag | downcase | replace: ' ', '-' }}">
@@ -24,6 +23,8 @@
             </a>&nbsp;
           {%- endfor -%}
         </span>
+      </main>
+
 
       <footer class="footer">
         <small>
