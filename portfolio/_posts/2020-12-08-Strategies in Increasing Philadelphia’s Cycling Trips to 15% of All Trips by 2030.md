@@ -5,6 +5,11 @@ truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
+**To:** James Kenney, Mayor of Philadelphia <br>
+**From:** Elizabeth Wang, Planning Consultant, Penn City Institute <br>
+**Re:** Strategies in Increasing Philadelphia’s Cycling Trips to 15% of All Trips by 2030 <br>
+-----------------------------------------------------------------
+
 **Summary** <br>
 Unlike many European countries where biking as a commuting mode comes from the
 convention, the U.S. introduced biking as a mode for transportation and entertainments in the early
