@@ -32,7 +32,7 @@ Proficiency English, Native Bilingual Cantonese, Native Bilingual Mandarin, Inte
 Coffee, Yoga, Travel <br>
 
 <br>
-<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/Venice_Biennale_1.png" alt="Venice_Biennale_1"/> 
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/about/Venice_Biennale_1.png" alt="Venice_Biennale_1"/> 
 <br>
 
 
