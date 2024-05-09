@@ -6,6 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 [![Click for Video Presentation]({{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/ROC.png" alt="ROC"/)](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
+[<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/SI618obesity/1.png" alt="Histograms of Health-related Columns"/>](https://www.youtube.com/watch?v=BPoTLzTc3eE&t=235s)
 
 ### Overview <br>
 
