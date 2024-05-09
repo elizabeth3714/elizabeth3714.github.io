@@ -17,6 +17,14 @@
         {{ content }}
       </main>
 
+        <span class="post-meta" style="padding-left: 20px;">
+          {%- for tag in post.tags -%}
+            <a href="/t/{{ tag | downcase | replace: ' ', '-' }}">
+              #{{ tag }}
+            </a>&nbsp;
+          {%- endfor -%}
+        </span>
+
       <footer class="footer">
         <small>
             <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}</span> &middot;
