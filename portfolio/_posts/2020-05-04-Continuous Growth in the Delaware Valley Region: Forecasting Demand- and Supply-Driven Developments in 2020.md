@@ -25,7 +25,7 @@ networks. <br>
 
 This report will summarize our recent study predicting future development demand based on
 the demand-driven factor of population change and the supply-driven factor of infrastructure network
-enhancement. It is predicted that development would intensify in Chester and Gloucester County as the
+enhancement. <!--more-->It is predicted that development would intensify in Chester and Gloucester County as the
 northern parts of Montgomery, Bucks and Burlington County. The development would be further
 intensified along the proposed highway, concentrating in north Montgomery and Burlington County. The
 findings provide insights for planners to formulate better policies to manage urban sprawl, leverage smart
