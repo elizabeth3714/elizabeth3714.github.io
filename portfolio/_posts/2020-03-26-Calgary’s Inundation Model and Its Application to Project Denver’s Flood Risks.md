@@ -10,7 +10,7 @@ Click for Video Presentation: <br>
 
 ### Overview <br>
 
-This exercise applied geo-spatial machine learning to learn the inundation model in Calgary and predicted flooding hazard in another geography that is the city of Denvor. <br><!--more-->
+This exercise applied geo-spatial machine learning to learn the inundation model in Calgary and predicted flooding hazard in another geography that is the city of Denver. <br><!--more-->
 
 ### Motivation <br>
 To adopt a scientific approach for studying and predicting natural disasters; to
@@ -34,6 +34,11 @@ generalizability of the model. <br>
 
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_confusion_matrix.png" alt="confusion_matrix"/> <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_ROC.png" alt="ROC"/> <br>
+
+### Prediction with Calgary Test Geography and Denvor <br>
+
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_prediction_actual.png" alt="prediction_actual"/> <br>
+<img src="{{site.baseurl | prepend: site.url}}/portfolio/image/CPLN675/p_calgary_denver.png" alt="calgary_denver"/> <br>
 
 ![SI507 repository](https://github.com/elizabeth3714/CPLN675) <br>
 
