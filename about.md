@@ -33,7 +33,6 @@ Coffee, Yoga, Travel <br>
 
 <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/about/Venice_Biennale_1.jpg" alt="Venice_Biennale_1"/> 
-<br>
 <p align="right">at Venice Biennale</p>
 <br>
 
