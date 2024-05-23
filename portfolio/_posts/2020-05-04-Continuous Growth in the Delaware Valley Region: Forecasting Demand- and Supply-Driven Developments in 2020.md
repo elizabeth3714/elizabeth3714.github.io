@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuous Growth in the Delaware Valley Region <br>-- Forecasting Demand- and Supply-Driven Developments in 2020
-tags: ["R", "SpatialAnalytics", "UrbanPlanning", "MachineLearning"]
+tags: ["R", "SpatialAnalytics", "UrbanPlanning", "MachineLearning", "DataVisualization"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
