@@ -33,6 +33,6 @@ Coffee, Yoga, Travel <br>
 
 <br>
 <img src="{{site.baseurl | prepend: site.url}}/portfolio/image/about/Venice_Biennale_1.jpg" alt="Venice_Biennale_1"/> 
-<p align="right">at Venice Biennale</p>
+<p align="right">14th International Architecture Exhibition @ La Biennale di Venezia</p>
 <br>
 
