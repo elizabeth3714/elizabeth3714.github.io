@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Calgary’s Inundation Model and Its Application to Project Denver’s Flood Risks
-tags: ["R", "SpatialAnalytics", "UrbanPlanning", "MachineLearning", "DataVisualization"]
+tags: ["R", "SpatialAnalytics", "UrbanPlanning", "MachineLearning", "DataVisualization", "EDA"]
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
