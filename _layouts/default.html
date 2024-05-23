@@ -13,17 +13,7 @@
     </nav>
 
     <div class="container content">
-      <main>
-        {{ content }}
-        
-        <span class="post-meta" style="padding-left: 20px;">
-          {%- for tag in post.tags -%}
-            <a href="/t/{{ tag | downcase | replace: ' ', '-' }}">
-              #{{ tag }}
-            </a>&nbsp;
-          {%- endfor -%}
-        </span>
-      </main>
+
 
     <div class="row">
     <div class="col-12">
