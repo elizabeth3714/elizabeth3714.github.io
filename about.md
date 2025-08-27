@@ -12,11 +12,13 @@ title: From Le Corbusier to the Mesh Matrices
 #### Elizabeth Wang, AICP <br>
 
 #### Education <br>
-Master of Public Policy, University of Michgian, 2018-19, Expected Dec 2024 <br>
-Graduate Data Science Certificate Program, Expected Dec 2024 <br>
-
+Master of Computer and Information Technology, ongoing <br>
 Master of City Planning, University of Pennsylvania, 2021 <br>
 Certificate of Urban Design and Development, University of Pennsylvania, 2021 <br>
+
+
+Master of Public Policy, University of Michgian, 2018-19, Expected Dec 2024 <br>
+Graduate Data Science Certificate Program, Expected Dec 2024 <br>
 
 #### Work Experience <br>
 Transportation Planner/Engineer, AECOM, 2022-2023 <br>
