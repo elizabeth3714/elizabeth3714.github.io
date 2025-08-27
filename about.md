@@ -12,7 +12,7 @@ title: From Le Corbusier to the Mesh Matrices
 #### Elizabeth Wang, AICP <br>
 
 #### Education <br>
-Master of Computer and Information Technology, ongoing <br>
+Master of Computer and Information Technology, University of Pennsylvania, ongoing <br>
 Master of City Planning, University of Pennsylvania, 2021 <br>
 Certificate of Urban Design and Development, University of Pennsylvania, 2021 <br>
 
